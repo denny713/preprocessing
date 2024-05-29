@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/styles.css" />
+        <title>Preprocessing</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <div class="app">
+            <div class="container-fluid my-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-2 col-lg-2">
+                        <div class="card border-0 shadow-sm mt-2">
+                            <div class="card-body">
+                                <nav class="menu" style="margin-left: 20px;">
+                                    <form action = "/preprocessing" method = "POST" style="padding-bottom: 5px;">
+                                        <p>Menu Preprocessing</p>
+                                        <hr class="m-0 p-0">
+                                        <br>
+                                        <input class="form-check-input" type="checkbox" id="remove_username" name="preprocess_checkbox" value="remove_username"
+                                        {% if "remove_username" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_username">Remove Username (@)</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_rt" name="preprocess_checkbox" value="remove_rt"
+                                        {% if "remove_rt" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_rt">Remove ReTweet</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_hashtag" name="preprocess_checkbox" value="remove_hashtag"
+                                        {% if "remove_hashtag" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_hashtag">Remove Hashtag</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_url" name="preprocess_checkbox" value="remove_url"
+                                        {% if "remove_url" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_url">Remove URL or HTTP</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_punctuation" name="preprocess_checkbox" value="remove_punctuation"
+                                        {% if "remove_punctuation" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_punctuation">Remove Punctuation (Tanda Baca)</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_symbol" name="preprocess_checkbox" value="remove_symbol"
+                                        {% if "remove_symbol" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_symbol">Remove Symbol</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_number" name="preprocess_checkbox" value="remove_number"
+                                        {% if "remove_number" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_number">Remove Number</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_duplicate" name="preprocess_checkbox" value="remove_duplicate"
+                                        {% if "remove_duplicate" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_duplicate">Remove Duplicate</label><br>
+                                        <input class="form-check-input" type="checkbox" id="replace_slang" name="preprocess_checkbox" value="replace_slang"
+                                        {% if "replace_slang" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="replace_slang">Replace Slang (Kata Gaul)</label><br>
+                                        <input class="form-check-input" type="checkbox" id="replace_abbreviation" name="preprocess_checkbox" value="replace_abbreviation"
+                                        {% if "replace_abbreviation" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="replace_abbreviation">Replace Abbreviation (Singkatan)</label><br>
+                                        <input class="form-check-input" type="checkbox" id="replace_elochar" name="preprocess_checkbox" value="replace_elochar"
+                                        {% if "replace_elochar" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="replace_elochar">Replace Elongated Character (Karakter Berulang)</label><br>
+                                        <input class="form-check-input" type="checkbox" id="lower_case" name="preprocess_checkbox" value="lower_case"
+                                        {% if "lower_case" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="lower_case">Lower Case</label><br>
+                                        <input class="form-check-input" type="checkbox" id="remove_stopword" name="preprocess_checkbox" value="remove_stopword"
+                                        {% if "remove_stopword" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="remove_stopword">Remove Stopword (Kata Sambung)</label><br>
+                                        
+                                        <input class="form-check-input" type="checkbox" id="stemming" name="preprocess_checkbox" value="stemming"
+                                        {% if "stemming" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="stemming">Stemming</label><br>
+                                        <!-- <input class="form-check-input" type="checkbox" id="lemmatization" name="preprocess_checkbox" value="lemmatization"
+                                        {% if "lemmatization" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="lemmatization">Lemmatization</label><br> -->
+
+                                        <input class="form-check-input" type="checkbox" id="join_case" name="preprocess_checkbox" value="join_case"
+                                        {% if "join_case" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="join_case">Join Case</label><br>
+                                        <input class="form-check-input" type="checkbox" id="tokenizing" name="preprocess_checkbox" value="tokenizing"
+                                        {% if "tokenizing" in preprocess_options %} checked {% endif %}>
+                                        <label class="form-check-label" for="tokenizing">Tokenizing</label><br>
+                                        <br>
+                                        <input class="btn btn-primary btn-sm float-none" style="width: 90%;" type="submit" value="Apply">
+                                    </form>
+                                    <form action = "/reset" method = "POST" enctype = "multipart/form-data">
+                                        <input class="btn btn-warning btn-sm float-none" style="width: 90%;" type="submit" value="Reset">
+                                    </form>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                        <div class="card border-0 shadow-sm mt-2">
+                            <div class="card-body">
+                                <div class="input">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+                                                <label for="file_csv">Upload File CSV</label><br>
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <input type="file" id="file_csv" name="file_csv">
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <input class="btn btn-primary btn-sm" type="Submit" name="" value="Upload">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        {% if show_kolom %}
+                                        <div class="col-6">
+                                            <form action = "/selector" method = "POST" enctype = "multipart/form-data">
+                                                <label for="column_name">Nama kolom yang akan diproses</label><br>
+                                                <div class="row">
+                                                    <div class="col-10">
+                                                        <select id="column_name" name="column_name" style="width: 250px;">
+                                                            {% for option in options %}
+                                                                <option value="{{ options.index(option) }}">{{ option }}</option>
+                                                            {% endfor %}
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <input class="btn btn-primary btn-sm" type="Submit" name="" value="Submit">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% with messages = get_flashed_messages(with_categories=true) %}
+                            {% if messages %}
+                            <div class="border-0 shadow-sm mt-2">
+                                <div class="alert alert-warning">
+                                    <ul style="margin-left: 20px;">
+                                        {% for category, message in messages %}
+                                            <li>{{ message }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endwith %}
+
+                        {% if show_table %}
+                        <div class="card border-0 shadow-sm mt-2">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <table class="table table-striped table-hover table-bordered" id="datatables_" style="width:100%">
+                                            <thead class="text-center">
+                                            <tr>
+                                                <th scope="col">{{nm_kol}} (Teks Asli)</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody class="table-responsive" style="height: 400px; max-width: 580px; overflow-x: auto; overflow-y: auto; ">
+                                                {% for cell in tabledata1 %}
+                                                <tr>
+                                                    <td class="table_cell" style="width: 580px;">{{ cell }}</td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                            <tfoot class="text-center">
+                                                <tr>
+                                                    <th scope="col">Jumlah data : {{datacount1}}</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <table class="table table-striped table-hover table-bordered" id="datatables_" style="width:100%">
+                                            <thead class="text-center">
+                                            <tr>
+                                                <th scope="col">{{nm_kol}} (Preview)</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody class="table-responsive" style="height: 400px; max-width: 580px; overflow-x: auto; overflow-y: auto; ">
+                                                {% for cell in tabledata2 %}
+                                                <tr>
+                                                    <td class="table_cell" style="width: 580px;">{{ cell }}</td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                            <tfoot class="text-center">
+                                                <tr>
+                                                    <th scope="col">Jumlah data : {{datacount2}}</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9"></div>
+                                    <div class="col-sm-3" style="padding-right: 30pt;">
+                                        <form action = "/downloader" method = "POST" enctype = "multipart/form-data">
+                                            <input class="btn btn-primary btn-sm float-right" style="width: 100px;" type="submit" name="" value="Download">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
