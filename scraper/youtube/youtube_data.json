@@ -1,0 +1,1219 @@
+{
+  "videos": [
+    {
+      "video_id": "kqtD5dpn9C8",
+      "comments": [
+        {
+          "text": "🔥 Want to master Python? Get my complete Python course: http://bit.ly/35BLHHP\n👍 Subscribe for more Python tutorials like this: https://goo.gl/6PYaGF",
+          "datetime": "2022-03-07T23:14:30"
+        },
+        {
+          "text": "name = input(\"Whats your name doc? \")\r\nprint(\"Hola\", name)\r\nFood = input(\"favorite food (mine is spaghetti with tuco)? \")\r\nBirthday = input(\"What year you decided to exist? \")\r\nAge = print(2024 - int(Birthday)),\r\nQuestion = input(\"how much is pi? \")\r\nlove = int(Birthday), float(Question)\r\nsum_result = sum(love)\r\nprint(\"you have\", 2050 - float(sum_result), Food)\r\n\r\nprint(\"Welcome Doc, 2 patients today\")\r\n\r\nKermit_TheFrog = [\r\n    first_name := \"Kermit\",\r\n    last_name := \"TheFrog\",\r\n    age := ('20 years old'),\r\n    Days := \"1 months\",\r\n    Problem := \"Problem: lime in the coconut, drank both\",\r\npatient := (\"new\")if(Days < \"2 months\")else(\"old patient\"),\r\n]\r\n\r\nJohn_Smith = (\r\n    first_name := \"John\",\r\n    last_name := \"Smith\",\r\n    age := ('83 years old'),\r\n    Days := \"26 months\",\r\npatient := (\"new\")if(Days < \"2 months\")else (\"old patient\")\r\n)\r\n\r\n\r\nprint(Kermit_TheFrog)\r\nprint (\"Doctor: ...♫♪Now let me get this straight, you put the lime in the coconut, you drank both up♪♫...\")\r\nprint(John_Smith)",
+          "datetime": "2024-03-03T22:39:55"
+        },
+        {
+          "text": "Hospital\n\nprint(\"Hello Doctor\")\r\n\r\nKermit_TheFrog = [\r\n    first_name := \"Kermit\",\r\n    last_name := \"TheFrog\",\r\n    age := ('20 years old'),\r\n    Days := \"1 months\",\r\n    Problem := \"Problem: lime in the coconut, drank both\",\r\npatient := (\"new\")if(Days < \"2 months\")else(\"old patient\"),\r\n]\r\n\r\nJohn_Smith = (\r\n    first_name := \"John\",\r\n    last_name := \"Smith\",\r\n    age := ('83 years old'),\r\n    Days := \"26 months\",\r\npatient := (\"new\")if(Days < \"2 months\")else (\"old patient\")\r\n)\r\n\r\n\r\nprint(Kermit_TheFrog)\r\nprint (\"Doctor: ...♫♪Now let me get this straight, you put the lime in the coconut, you drank both up♪♫...\")\r\nprint(John_Smith)",
+          "datetime": "2024-03-03T21:19:10"
+        },
+        {
+          "text": "i like Mosh",
+          "datetime": "2024-03-03T17:47:35"
+        },
+        {
+          "text": "For the weight conversion code... This is what I used\n\nWeight = 1\nLbs = (Weight * 2.22)\nKgs = (Lbs /2.22)\n\nname = input (\"Client name\")\nWeight1 = float(input (\"What is your name? \")\nWieight2= input (\"Is it in Kgs or Lbs? \"\n\nif Lbs:\n          print (Weight1/2.22)\nelse:\n          print (Weight1)",
+          "datetime": "2024-03-03T15:15:16"
+        },
+        {
+          "text": "Data Science & Machine Learning",
+          "datetime": "2024-03-03T15:06:43"
+        },
+        {
+          "text": "Thank you so much Mr.Mosh\nExercise 1:\nname=\"John Smith\"\nage=\"20\"\nNew_Patient=\"Yes\"\nprint(name,age)\nprint(\"New Patient?\", New_Patient)",
+          "datetime": "2024-03-03T12:07:49"
+        },
+        {
+          "text": "9:02  My_code\nname =(\"John Cena\")\nage = 40\nis_new_patient = True\nprint (name)\nprint(age)\nif is_new_patient:\n    print (name + \" is a new new patient\")\nelse:\n    print (\"returning patient\")",
+          "datetime": "2024-03-03T08:28:22"
+        },
+        {
+          "text": "9:02  My_code\nname =(\"John Cena\")\nage = 40\nis_new_patient = True\nprint (name)\nprint(age)\nif is_new_patient:\n    print (name + \" is a new new patient\")\nelse:\n    print (\"returning patient\")",
+          "datetime": "2024-03-03T08:27:41"
+        },
+        {
+          "text": "hi, This is Yifat from Jerusalem, your tutorial looks good I am unable to download pycharm, and when I dowload python Idid not see add to path as in your example. can I use repelit as ide?",
+          "datetime": "2024-03-02T21:41:06"
+        },
+        {
+          "text": "Hi Mosh, i recently subscribed to your Python course and I am getting the error of \"zsh: command not found: app.py\" I tried my best to resolve but how I am unable and I could not find where to send a request for your help plus the version you have on the tutorial is very old and might wanna update for beginners.",
+          "datetime": "2024-03-02T16:47:59"
+        },
+        {
+          "text": "I'm currently studying a comp sci course, a first year,  so this is helpful...",
+          "datetime": "2024-03-02T15:18:32"
+        },
+        {
+          "text": "Exercise #1 8:49 \n\npatient = \"John Smith\"\nage = 20\nnew_patient = True\nprint(patient, age, new_patient, sep = '\\n')",
+          "datetime": "2024-03-02T11:25:34"
+        },
+        {
+          "text": "i am learning to be a web dev",
+          "datetime": "2024-03-02T03:19:04"
+        },
+        {
+          "text": "عزیز دمت گرم ؛ \nچقدر خوب میشه اگر زیرنویس فارسی هم اضافه کنی (به جز ترجمه خودکار)",
+          "datetime": "2024-03-01T23:06:22"
+        },
+        {
+          "text": "Just a heads up pycharm is no longer free. it is a free trial",
+          "datetime": "2024-03-01T23:05:29"
+        },
+        {
+          "text": "i am learning python for Data Science for more advanced ML models",
+          "datetime": "2024-03-01T21:46:29"
+        },
+        {
+          "text": "I'm in year 9 and chose computer science for my GCSE. I'm trying to learn this early so it makes it easier later on. This was very helpful and I'm understanding most of it thanks to you.",
+          "datetime": "2024-03-01T19:34:32"
+        },
+        {
+          "text": "you teach too fast.  thanks for visual aid, thanks for visual aid",
+          "datetime": "2024-03-01T18:01:57"
+        },
+        {
+          "text": "For data science",
+          "datetime": "2024-03-01T12:29:42"
+        },
+        {
+          "text": "Exercise 1:\nfirst_name = \"John\"\r\nlast_name = \"Smith\"\r\nage = 20\r\npatient_status = \"New Patient\"\r\nprint(\"Name:\", first_name, last_name)\r\nprint(\"Age:\", age)\r\nprint(\"Patient Status:\", patient_status)\n\nExercise 2:\nfirst = input(\"First: \")\r\nsecond = input(\"Second: \")\r\nsum = float(first) + float(second)\r\nprint(\"Sum: \" + str(sum))\n\nExercise 3:\nweight = float(input(\"Weight: \"))\r\nunit = input(\"(K)g or (L)bs: \")\r\n\r\n\r\nif unit.upper() == \"L\":\r\n    print(\"Weight in Kgs\")\r\n    print(float(weight) * 0.45 )\r\n\r\nelif unit.upper() == \"K\":\r\n    print(\"Weight in Lbs\")\r\n    print(float(weight) / 0.45)\n\nlast one feels a bit dodgy as but i tried lol",
+          "datetime": "2024-03-01T10:15:01"
+        },
+        {
+          "text": "Exercise 1\nname=\"John Smith\"\r\nprint(\"Name:\",name)\r\nage=20\r\nprint(\"Age:\",age)\r\nStatus=\"New Patient\"\r\nprint(\"Status:\",\"New Patient\")",
+          "datetime": "2024-03-01T09:48:35"
+        },
+        {
+          "text": "Ex 1: \nName = “JohnSmith”\nAge = 20\nNewcomer = “Newcomer”\nPrint(“Name :”, Name, “Age :”,Age, “Newcomer :”, Newcomer)",
+          "datetime": "2024-03-01T08:50:56"
+        },
+        {
+          "text": "I want to learn python for use it in data science",
+          "datetime": "2024-03-01T08:48:04"
+        },
+        {
+          "text": "thank you so much this video is helpfull for the beginners like me you deserive sub",
+          "datetime": "2024-03-01T07:07:33"
+        },
+        {
+          "text": "w=float(input(\"Weight: \"))\nm=input(\"(K)g or (L)bs: \")\ndiff=0.45\nif m.lower()=='l':\n    weight_kg=w*diff\n    print(\"Weight in kg:\"+ str(weight_kg) )\nelif m.lower()=='k':\n    weight_lb=w/diff\n    print('Weight in lb:'+ str(weight_lb))\nelse:\n    print(\"You entered wrong letter\")",
+          "datetime": "2024-03-01T04:12:51"
+        },
+        {
+          "text": "print(\"Weight converter program\\n\")\r\nweight= float(input(\"Enter your Weight? \"))\r\nunit=(input(\"What you want it to convert into: Kgs (k) or Lbs (l) \"))\r\nif unit == 'l':\r\n    weight*=2.205\r\n    print(f\"Your Weight = {round(weight,2)} lbs\")\r\nelse:\r\n    weight/=2.205\r\n    print(f\"Your weight = {round(weight,2)} kg\")",
+          "datetime": "2024-03-01T04:02:06"
+        },
+        {
+          "text": "I am learning python coz I want to be a programmer in the nearest picture. I am civil engineer rn. I will check this comment next year to see where I am compared to my goal.",
+          "datetime": "2024-03-01T03:24:31"
+        },
+        {
+          "text": "Patient_name = \"John Smith\"\nJohn_smith = \"New Patient\"\nJohn_smith_age = 20\n\nprint(Patient_name)\nprint(John_smith_age)\nprint(John_smith)\n\nPls correct me if I'm wrong",
+          "datetime": "2024-03-01T01:57:05"
+        },
+        {
+          "text": "You made it so simple! Thankyou Mosh!!",
+          "datetime": "2024-03-01T01:42:47"
+        },
+        {
+          "text": "Exercise 3:\nweight = input('Weight: ')\r\nunits = input('(K)g or (L)bs: ')\r\nif units == 'K' or units == 'k':\r\n    print('Weight in Lbs is: ' + str(float(weight) * 2.205))\r\nelif units == 'L' or units == 'l':\r\n    print('Weight in Kgs is: ' + str(float(weight) / 2.205))",
+          "datetime": "2024-02-29T23:22:58"
+        },
+        {
+          "text": "patient_status = \"new patient\"\r\nfirst_name = \"John\"\r\nlast_name = \"Smith\"\r\nage = 20\r\nprint(first_name, last_name, age, patient_status)",
+          "datetime": "2024-02-29T20:19:08"
+        },
+        {
+          "text": "weight=input(\"weight:\")\r\na=input(\"k(g) or l(bs): \")\r\nif a==\"k\" or \"K\" :\r\n    print(\"weight in bs: \" , (int(weight) * 3) )\r\nelif a==\"l\" or \"L\" :\r\n    print(\"weight in kg: \" , (int(weight) +9) )",
+          "datetime": "2024-02-29T17:31:16"
+        },
+        {
+          "text": "i learning python for fun",
+          "datetime": "2024-02-29T17:15:56"
+        },
+        {
+          "text": "Any recommendations for an IPad Pro downloadable tutorial?",
+          "datetime": "2024-02-29T13:26:51"
+        },
+        {
+          "text": "Exercise 1:\nage = 20\nfirst_name = \"John\"\nlast_name = \"Smith\"\nstatus = new_patient",
+          "datetime": "2024-02-29T10:58:11"
+        },
+        {
+          "text": "Hello, this is my code for Exercise 2 - int and float:\nFirst = input(\"Enter the first number:  \")\r\nSecond = input(\"Enter the second number: \")\r\nSum = float(First) + int(Second)\r\nprint(Sum)",
+          "datetime": "2024-02-29T10:19:09"
+        },
+        {
+          "text": "pycharm only have 30 day trails :(",
+          "datetime": "2024-02-29T03:39:39"
+        },
+        {
+          "text": "This was the code i used mosh, please take a look at it, I'm only 11 and my passion is coding and I sit at my desk at 10 at night every night to listen to you teach, your the teacher we all never had, thank you.\n\nnormal_weight = input (\"Weight: \")\r\n\r\nnative_weight_type = input (\"Is it (K)g or (L)bs\")\r\nif (native_weight_type) == \"L\":\r\n    kilogram_weight = float(normal_weight) * 2.2\r\n    print (kilogram_weight)\r\n\r\nif (native_weight_type) == \"K\":\r\n    (pound_weight) = float(normal_weight) * 0.45359237\r\n    print (pound_weight)\n\n(By the way it is a little messy)",
+          "datetime": "2024-02-29T02:09:25"
+        },
+        {
+          "text": "I want to use python for automation",
+          "datetime": "2024-02-29T01:53:10"
+        },
+        {
+          "text": "this just an introduction to python😕",
+          "datetime": "2024-02-29T00:19:44"
+        },
+        {
+          "text": "name = \"abdullah\"\r\nage = 20\r\nNew_Patient = True\r\nprint(name)\r\nprint(age)\r\nprint(New_Patient)",
+          "datetime": "2024-02-28T23:38:01"
+        },
+        {
+          "text": "python\nName = John smith\nage = 20\nnew patient = True",
+          "datetime": "2024-02-28T22:59:07"
+        },
+        {
+          "text": "age=20\nfirst_name=(\"John\")\nlast_name=(\"Smith\")\nnew=True\nprint( last_name)",
+          "datetime": "2024-02-28T16:20:48"
+        },
+        {
+          "text": "You have the updated version because the python charm ain't working because it can't find python when it's already installed",
+          "datetime": "2024-02-28T14:52:27"
+        },
+        {
+          "text": "You just explained in the first 15 minutes what took my computer science professor 7 weeks to explain via powerpoint",
+          "datetime": "2024-02-28T13:47:12"
+        },
+        {
+          "text": "uhhh i wanted to learn it for fun?",
+          "datetime": "2024-02-28T13:32:46"
+        },
+        {
+          "text": "name = input(\"What is your name ? \")\nprint(\"Hello \" + name )",
+          "datetime": "2024-02-28T12:56:31"
+        },
+        {
+          "text": "weight = float(input(\"My weight? \"))\r\nunit = input(\"(K)g or (L)bs: \").upper()\r\n\r\nif unit == 'K':\r\n    print(weight * 2.20462)\r\nelif unit == 'L':\r\n    print(weight / 2.20462)\r\nelse:\r\n    print(\"Invalid unit. Please enter 'K' for kilograms or 'L' for pounds.\")\r\n\r\nprint('Done!')",
+          "datetime": "2024-02-28T08:26:06"
+        },
+        {
+          "text": "love it !!",
+          "datetime": "2024-02-28T06:02:26"
+        },
+        {
+          "text": "cool video)",
+          "datetime": "2024-02-27T19:01:59"
+        },
+        {
+          "text": "36:12\nweight=float(input(\"Weight: \"))\r\nmeasurement=input(\"(K)g or (L)bs: \")\r\nif measurement==\"k\" or measurement==\"K\":\r\n    conversion=round(float(weight/ 2.205),2)\r\n    print(\"weight in Lbs: \",str(conversion),\"Lbs\")\r\nelif measurement==\"l\" or measurement==\"L\":\r\n    conversion=weight*2.205\r\n    print(\"weight in Kg: \",str(conversion),\"Kg\")",
+          "datetime": "2024-02-27T17:58:09"
+        },
+        {
+          "text": "name_of_patient =(\"John Smith\")\r\nage_of_the_patient=20\r\ntype_of_patient= (\"New\")\r\nprint (name_of_patient)\r\nprint(age_of_the_patient)\r\nprint(type_of_patient)\r\n\n@programmingwithmosh is this the right way",
+          "datetime": "2024-02-27T17:53:14"
+        },
+        {
+          "text": "I started cybersecurity and my teacher asked me to learn python. What’s your take on that sir?",
+          "datetime": "2024-02-27T16:42:25"
+        },
+        {
+          "text": "I love you Mosh thank you so much I just really satisfied",
+          "datetime": "2024-02-27T15:59:03"
+        },
+        {
+          "text": "In university, we are taught with C++. Is C++ the better choice, or should I learn other languages like Python on my own and give less time to C++?",
+          "datetime": "2024-02-27T15:53:45"
+        },
+        {
+          "text": "i cant see  the other capab. after typing course. please help me.",
+          "datetime": "2024-02-27T12:26:03"
+        },
+        {
+          "text": "Patient_name\n(\"Jonh_smith\")\nPrimt(\"patient\")",
+          "datetime": "2024-02-27T11:35:50"
+        },
+        {
+          "text": "Sweetheart, thank you so much for providing such an amazing chance for learning and growth.",
+          "datetime": "2024-02-27T08:08:54"
+        },
+        {
+          "text": "Automation. I like mechatronics",
+          "datetime": "2024-02-27T06:28:51"
+        },
+        {
+          "text": "You're the worst teacher in the world. The truth is one would have to have a vast amount of understanding of what you're even talking about to even follow you if in fact we were starting from 0  to hero. You truly don't explain even one detail of what you're actually showing us on the screen. But after watching many times only, and I repeat only if the individual really really really really bends over backward for your word salad can they eventually figure out more or less at least the concept. But ur truly not giving any of in in baby steps. It' all like and advanced example of what you think is a basic demo. But no average person would ever be able to get it. You're literally stunting the entire world if they are actually wanting to start coding. Literally one of the worst teachers I have ever witnessed in my entire natural life. But that being said thanks to myself and none other I finally was able to figure out some of it. Gosh I hate videos like these. But it's all we have. Never the less thanks for at least trying.",
+          "datetime": "2024-02-27T06:13:53"
+        },
+        {
+          "text": "name = (\"John_Smith\")\r\nage = (\"20\")\r\npatient = (\"New_Patient\")\r\nprint(name, age, patient)",
+          "datetime": "2024-02-27T04:19:01"
+        },
+        {
+          "text": "patient_name =John Smith\nprint(\"Patirnt name is --\" , patient_name)\nage =24\n\n\n\nprint(\"age is --\",age)\nnew_patient = TRUE\nprint(\" {} is  new patient {}\".format(patient_name ,new_patient))",
+          "datetime": "2024-02-27T01:47:27"
+        },
+        {
+          "text": "Data science",
+          "datetime": "2024-02-26T19:33:20"
+        },
+        {
+          "text": "I'm learning python for fun cuz I've always been interested in coding for a long time now though being med student. They said it's gonna be difficult for me as I'll be learning it from scratch but I hardly find this difficult and I'm glad I came across this video.",
+          "datetime": "2024-02-26T17:59:43"
+        },
+        {
+          "text": "Computer Vision, AI and intro into data science.",
+          "datetime": "2024-02-26T16:13:58"
+        },
+        {
+          "text": "Im learning for fun 😂",
+          "datetime": "2024-02-26T16:09:38"
+        },
+        {
+          "text": "A 14 year old me wanting to learn coding 🫡 lets see how it will be",
+          "datetime": "2024-02-26T15:10:03"
+        },
+        {
+          "text": "my print is showing as an error",
+          "datetime": "2024-02-26T04:35:06"
+        },
+        {
+          "text": "I dont get it. I hate thst i dont understand. I been trying to wrap my head arounf it but i just cant",
+          "datetime": "2024-02-26T02:29:56"
+        },
+        {
+          "text": "I got hacked >:(",
+          "datetime": "2024-02-26T00:13:28"
+        },
+        {
+          "text": "27:01 so ten plus 3 is 13 and that divided by two is 26 Lmao I know lol I didn’t know I was wrong this whole time. I guess 13×2 must be 6.5 27:01",
+          "datetime": "2024-02-25T18:47:44"
+        },
+        {
+          "text": "I want to learn it for educational purposes",
+          "datetime": "2024-02-25T17:59:04"
+        },
+        {
+          "text": "I'm learning python cause I'm bored",
+          "datetime": "2024-02-25T17:52:22"
+        },
+        {
+          "text": "Have a question at 54:08 why can't I write for while loop\ni<= len( numbers)??\n\nIt says list index out of range..I mean it should print atleast till the last number right? Please explain thanks a lot",
+          "datetime": "2024-02-25T17:13:02"
+        },
+        {
+          "text": "After a year search of python courses as I am not from tech background...this is the first video i completed and understood...omg thanks a lot...I will redo this video course like 2-3 times and then go for the full course",
+          "datetime": "2024-02-25T16:54:03"
+        },
+        {
+          "text": "I have been trying to learn. But the way he has explained so far is super easy and understandable. I wish I could come to this channel earlier.",
+          "datetime": "2024-02-25T15:36:00"
+        },
+        {
+          "text": "I’m learning python for automation and AI.",
+          "datetime": "2024-02-25T15:13:38"
+        },
+        {
+          "text": "26:39 BIDMAS!!!!!!!!!!",
+          "datetime": "2024-02-25T13:08:06"
+        },
+        {
+          "text": "machine learning",
+          "datetime": "2024-02-25T13:05:07"
+        },
+        {
+          "text": "Your talking to damn fast to follow! Slow down!",
+          "datetime": "2024-02-25T08:17:21"
+        },
+        {
+          "text": "Hi. Good day. I would like to learn python and want to become a software engineer. I installed pyhton then also installed pycharm but it does not have community download anymore. It also ask me license activation. Any suggestion where can I learn the programming language? Thank you.",
+          "datetime": "2024-02-25T07:53:22"
+        },
+        {
+          "text": "I am in IT. I used AI to write out a whole Python script and it did it in less than 10 sec. No code issues, everything commented and it worked. AI is the future and I don't see a reason to learn these things anymore. Companies will want to use AI.",
+          "datetime": "2024-02-25T04:54:50"
+        },
+        {
+          "text": "This is very basic. For person like me,I'd really appreciate cause I have no knowledege about it. It's fun to learn,thanks !",
+          "datetime": "2024-02-25T04:50:29"
+        },
+        {
+          "text": "You honestly don't explain anything. You think you do. But you don't actually have real teaching skills. You opened with you don't need any skills period. And then you assume we even know how to save a file. Truth is I came back a few years later and again with in 5 minutes I'm so furious I'm ready to give up again. I spent so many hours and tutorials including you to try to learn anything on python. And not even 1 single command actually works for me. This video is useless for me.",
+          "datetime": "2024-02-25T04:42:05"
+        },
+        {
+          "text": "I’m learning for fun",
+          "datetime": "2024-02-25T02:59:27"
+        },
+        {
+          "text": "Good start.",
+          "datetime": "2024-02-25T02:21:28"
+        },
+        {
+          "text": "First = input(\"enter first number \")\r\nSecond = input(\"enter second number \")\r\nsum = (First + str(Second)\r\nprint(sum)",
+          "datetime": "2024-02-25T00:37:39"
+        },
+        {
+          "text": "To be fair i'm bored as fuck and I just wanna learn something unique other than just languages like german, I need to learn the COMPUTER language, yk what I mean homeboy",
+          "datetime": "2024-02-24T19:40:13"
+        },
+        {
+          "text": "my pycharm is obviously a newer version as this vid came out 2 years ago but i was just wondering if i could still get the little tips and things that come up when you type stuff in the file? like how it highlights certain things or when you type a string it shows its capabilities or the little lightbulb. is there anyway i can enable it in the settings or something like that??",
+          "datetime": "2024-02-24T19:25:25"
+        },
+        {
+          "text": "weight = input (\"please enter your weight : \")\r\nunit= input(\"Is the input in (K)g or (L)bs: \")\r\n\r\n\r\nif unit == 'k' or 'k':\r\n    kg = float(weight) / float(0.45)  \r\n    print(\"Your weight in lbs: \", kg,\"lbs\")\r\nelif unit == \"l\" or 'l':\r\n    lbs = float(weight) * float(0.45)\r\n    print(\"Your weight in kgs: \", lbs,\"kg\")",
+          "datetime": "2024-02-24T17:34:03"
+        },
+        {
+          "text": "Ans of the second exercise\n\nweight = int(input(\"Weight = \"))\r\nweight_in = input(\"(K/k)for KG or (P/p) for pound = \")\r\nif weight_in ==\"k\" :\r\n    out_weight = weight * 2.20462\r\n    weight1 = round(out_weight, 3)\r\n    print(\"The weight in Pound = \", weight1)\r\nelif weight_in ==\"K\" :\r\n    out_weight = weight * 2.20462\r\n    weight1 = round(out_weight, 3)\r\n    print(\"The weight in Pound = \", weight1)\r\nelif weight_in ==\"p\" :\r\n    out_weight = weight / 2.20462\r\n    weight1 = round(out_weight, 3)\r\n    print(\"The weight in kg = \", weight1)\r\nelif weight_in ==\"P\" :\r\n    out_weight = weight /2.20462\r\n    weight1 = round(out_weight , 3)\nYour video was very help full.\nI passed my grade 8 finals because of you.",
+          "datetime": "2024-02-24T16:48:22"
+        },
+        {
+          "text": "Name = John\nLast_Name = Smith\nage = 20\npatient_status = new\nprint(Name)\nprint(Last_Name)\nprint(age)\nprint(patient status)",
+          "datetime": "2024-02-24T14:54:54"
+        },
+        {
+          "text": "8:59 let me try \nFirst_name = John\nFamily_name =Smith\nAge = 20 \n(\"New patient\" )",
+          "datetime": "2024-02-24T13:38:10"
+        },
+        {
+          "text": "Mosh you trully are an amazing teacher \nanyway this is my answer to ex3 \nweight= int(input(\"Weight: \"))\r\nunit= input(\"(K)g or (L)bs: \")\r\n\r\nif 'k' in unit or 'K' in unit:\r\n    converted = weight / 0.45\r\n    print(\"Weight in Lbs: \" + str(converted))\r\nelif 'l' in unit or 'L' in unit:\r\n    converted = weight * 0.45\r\n    print(\"Weight in kgs: \" + str(converted))",
+          "datetime": "2024-02-24T10:03:06"
+        },
+        {
+          "text": "Hi Mr moshfegh am very glad to find you here and see you are a popular teachers on here :)\nand i proud of to you",
+          "datetime": "2024-02-24T08:47:22"
+        },
+        {
+          "text": "first_name = \"John\"\r\nsecond_name = \"Smith\"\r\nage = 20\r\npatient = ''New''\r\nprint ( age )",
+          "datetime": "2024-02-24T01:34:00"
+        },
+        {
+          "text": "Exercise 1 \nfirst_name = \"John\"\nlast_name = \"Smith\"\n\nprint(first_name + \"\", last_name)\n\nage = 20\n\nprint(age)\n\nnewcomer = True\n\nprint(newcomer)\n\nExercise 2\nfirst = input(\"first: \")\nsecond = input(\"second: \")\nsum = int(first) + int(second)\nprint(sum)\nthis is very easy to follow",
+          "datetime": "2024-02-23T23:04:41"
+        },
+        {
+          "text": "18:54  strings ,   28:29  logical operators , 31:05  if statements",
+          "datetime": "2024-02-23T20:51:47"
+        },
+        {
+          "text": "weight = float (input(\"weight: \"))\nunit = input (\"(k)g or (L)bs: \")\nif unit.upper() == \"K\":\n    converted = weight / 0.45\n    print (\"weight in Lbs: \" + str(converted) )\nelse:\n    converted = weight * 0.45\n    print (\"weight in Kgs: \" + str(converted) )",
+          "datetime": "2024-02-23T17:25:37"
+        }
+      ]
+    },
+    {
+      "video_id": "_uQrJ0TkZlc",
+      "comments": [
+        {
+          "text": "🔥 Want to master Python? Get my Python mastery course: http://bit.ly/35BLHHP\n👍 Subscribe for more Python tutorials like this: https://goo.gl/6PYaGF",
+          "datetime": "2022-03-07T23:14:00"
+        },
+        {
+          "text": "I REALLY appreciate this. my parents have wasted quite a bit of money for lessons that get me literally nowhere, so I am so glad to have found this video so that I can restart!",
+          "datetime": "2024-03-04T01:23:14"
+        },
+        {
+          "text": "nested loop challenge: after a great deal of agonizing, I figured something out that works — \n\nitems = [5, 2, 5, 2, 2]\r\nfor x in items:\r\n    for y in range(1):\r\n        if x == 2:\r\n            print('xx')\r\n        if x == 5:\r\n            print('xxxxx')\n\nsomewhat cheatsie im sure, cant wait to see how you solve it xD",
+          "datetime": "2024-03-04T01:05:28"
+        },
+        {
+          "text": "OK here I am an old lady and I'm going to tackle this course because I still have an intact brain.  Thanks for offering this. Wow! 37M views. You're a beast!",
+          "datetime": "2024-03-04T00:52:01"
+        },
+        {
+          "text": "Math functions",
+          "datetime": "2024-03-03T21:11:36"
+        },
+        {
+          "text": "1:43:41",
+          "datetime": "2024-03-03T19:37:20"
+        },
+        {
+          "text": "This guy is legend.i can now make any program in python",
+          "datetime": "2024-03-03T19:29:24"
+        },
+        {
+          "text": "some of your links i cant open due to it being labeled not secure.  any solutions to solve this?",
+          "datetime": "2024-03-03T11:03:37"
+        },
+        {
+          "text": "hi the cheat sheet  link  is not working",
+          "datetime": "2024-03-03T10:26:02"
+        },
+        {
+          "text": "hi! I've got problem with PyCharm is there an app you can recommend other than it? I'm very interested in learning python programming. thank you and Godbless",
+          "datetime": "2024-03-03T09:40:36"
+        },
+        {
+          "text": "I want to learn python to be qulify for a job I am beginner. not sure how I will use it",
+          "datetime": "2024-03-03T09:02:43"
+        },
+        {
+          "text": "Hello, I really like your tutorial but I am unable to use Pycharm. Can I use another IDE such as repelit from the browser?",
+          "datetime": "2024-03-03T08:35:45"
+        },
+        {
+          "text": "OH",
+          "datetime": "2024-03-03T06:12:56"
+        },
+        {
+          "text": "I don't understand the use of the boolean at around 1 hour and 38 minutes to 1 hour and 41 minutes. How does the code use False and True to understand whether or not the car was already started or stopped?",
+          "datetime": "2024-03-03T03:09:20"
+        },
+        {
+          "text": "Get good job",
+          "datetime": "2024-03-02T18:21:44"
+        },
+        {
+          "text": "mosh i think theres something wrong with the cheat sheet",
+          "datetime": "2024-03-02T13:08:05"
+        },
+        {
+          "text": "❤",
+          "datetime": "2024-03-02T10:50:56"
+        },
+        {
+          "text": "Juz a doubt. Can't we do 1:51:40 as:\n\nnum =[5,2,5,2,2]\nfor i in num:\n\tfor j in range (i):\n\t\tprint(\"*\",end='')\n\tprint()\n\nIs there anything wrong in doing it this way? Coz m getting the patterns right.",
+          "datetime": "2024-03-02T03:36:33"
+        },
+        {
+          "text": "Me who is already making ddos",
+          "datetime": "2024-03-02T01:47:23"
+        },
+        {
+          "text": "In case anyone is looking for a solution for the program mosh asked for in 2:12:05, here it is:\n\nnumbers = [2, 2, 4, 6, 3, 4, 6, 1]\nfor i in numbers:\n    if numbers.count(i) > 1:\n        numbers.remove(i)\nprint(numbers)\n\n(he didnt realy do what he asked for, so this actually removes the dublicates from the list)",
+          "datetime": "2024-03-01T21:45:26"
+        },
+        {
+          "text": "الو",
+          "datetime": "2024-03-01T21:15:55"
+        },
+        {
+          "text": "Python for data science and Machine learning",
+          "datetime": "2024-03-01T16:16:26"
+        },
+        {
+          "text": "i'm selected for university for animal science degree. i'm learning python for mostly for fun. do you think im wasting my time on this?",
+          "datetime": "2024-03-01T14:25:19"
+        },
+        {
+          "text": "why do we want to put f in the formatted string",
+          "datetime": "2024-03-01T12:43:13"
+        },
+        {
+          "text": "making games apps etc i am going to do when i lean pyton",
+          "datetime": "2024-03-01T10:50:21"
+        },
+        {
+          "text": "The fact that the video guides you on how and where to download the software makes it so detailed which most if not the rest of the videos on YouTube miss out or neglect!",
+          "datetime": "2024-03-01T06:37:22"
+        },
+        {
+          "text": "My favorite programming instructor! Thank you for making this course, Mosh",
+          "datetime": "2024-03-01T03:36:00"
+        },
+        {
+          "text": "Hey mosh, I don't have laptop yet so I use pydroid3 can it still support your examples from the tutorial",
+          "datetime": "2024-03-01T02:06:27"
+        },
+        {
+          "text": "I ADD something and it works!\n\n#sample 03 (Guess Game)\r\nsecret_number = 3\r\nguess_count = 0\r\nguess_limit = 3\r\nprint (\"You have only 3 guesses to make.\")\r\nwhile guess_count < guess_limit:\r\n    guess = int(input(\"Guess : \"))\r\n    guess_count += 1\r\n    if guess == secret_number:\r\n        print(\"Congratulation, you won!!!\")\r\n        break\r\n    elif guess_count <= 2:\r\n        print(\"Oooops, try again!\")\r\nelse:\r\n    print(\"Sorry, you failed!!!\")",
+          "datetime": "2024-02-29T18:46:37"
+        },
+        {
+          "text": "I am here to learn django....",
+          "datetime": "2024-02-29T12:50:55"
+        },
+        {
+          "text": "I wanted to learn so I can build a computer. coding is probably the basics",
+          "datetime": "2024-02-28T19:16:41"
+        },
+        {
+          "text": "How to enable Scientific Mode in Pycharm Community Edition In Mac as i havent installed Anaconda.",
+          "datetime": "2024-02-28T17:32:33"
+        },
+        {
+          "text": "I am learning it for general",
+          "datetime": "2024-02-28T14:45:49"
+        },
+        {
+          "text": "40:56",
+          "datetime": "2024-02-28T06:23:05"
+        },
+        {
+          "text": "I am learning python to build websites and apps.. I AM ready to spend 4 hours daily",
+          "datetime": "2024-02-27T22:16:04"
+        },
+        {
+          "text": "29:18 weight = float (input (\"enter your weight in pounds: \"))\nN = 0.454\nrealweight = (weight * N)\nprint (realweight)",
+          "datetime": "2024-02-27T20:33:23"
+        },
+        {
+          "text": "Error: Please select a valid Python interpreter\ni am facing this error while running the code, please help me to solve it. thanks",
+          "datetime": "2024-02-27T19:00:11"
+        },
+        {
+          "text": "i really appreciate Your courses \nThanks Mosh",
+          "datetime": "2024-02-27T16:55:53"
+        },
+        {
+          "text": "Hello, i dont understand, you say at minute 45:14, Beginners start with in index 11? what does it mean?",
+          "datetime": "2024-02-27T14:27:49"
+        },
+        {
+          "text": "Thanks from SEU",
+          "datetime": "2024-02-27T11:26:11"
+        },
+        {
+          "text": "anyone I need this plz",
+          "datetime": "2024-02-27T09:38:29"
+        },
+        {
+          "text": "Instead of  print(max(numbers)) why to use for loop??",
+          "datetime": "2024-02-27T04:25:33"
+        },
+        {
+          "text": "Just adding a single line to tell the user they have entered the incorrect number might help too :)\n\nguess_count=0\r\nguess_number=500\r\nwhile guess_count<3:\r\n      guess=int(input('please enter your number'))\r\n      guess_count+=1\r\n      if guess==guess_number:\r\n            print('you are right')\r\n            break\r\n      else:\r\n            print('incorrect number')\r\nelse:\r\n      print('You have lost all three chances')",
+          "datetime": "2024-02-26T17:21:30"
+        },
+        {
+          "text": "Pycharm is great for Python. But when you are importing a class from a file that exists in a directory backwards, Pycharm does not recognize it unless you include the needed dots. VS code doesn't have this problem. \nSuch a huge limitation for such a great IDE like Pycharm.",
+          "datetime": "2024-02-26T12:57:24"
+        },
+        {
+          "text": "Great course! Thank you Mosh! Your videos have been very useful in learning to code.\nFor those who are facing errors with joblib; instead of 'from sklearn.externals import joblib' try 'import joblib'. It works. Hope this helps",
+          "datetime": "2024-02-26T12:03:54"
+        },
+        {
+          "text": "seems like I am the first who don't understand anything",
+          "datetime": "2024-02-26T10:51:39"
+        },
+        {
+          "text": "18:24",
+          "datetime": "2024-02-26T10:32:19"
+        },
+        {
+          "text": "Hello, i dont understand, you say at minute 45:14, Beginners start with in index 11? what does it mean?",
+          "datetime": "2024-02-26T09:03:21"
+        },
+        {
+          "text": "in 3:27:52 if you see it its not 10 becuase mosh give 10 at the first line of numbers\nif give 2 in the first and my answer was 2",
+          "datetime": "2024-02-26T08:47:06"
+        },
+        {
+          "text": "@2:11:45 you took copy of a list using numbers.copy() then you did append  10 to the original list. When we print the lists Original will have appended value where as the copies will not have the added cumber.\nlet me say 👉 I took 5 copies of the list and if I append to the original list, the changes has to get reflected to the other lists. How to make it?",
+          "datetime": "2024-02-26T08:22:35"
+        },
+        {
+          "text": "I wanna go into cyber security, this my first programming language",
+          "datetime": "2024-02-26T04:05:13"
+        },
+        {
+          "text": "One of the best videos on Python , thanks for compiling this awesome video 👍👍👍",
+          "datetime": "2024-02-25T21:20:45"
+        },
+        {
+          "text": "Mosh you're the best teacher on the internet! Having completed courses at college and on coursera I keep coming back, your way of explaining and structuring lessons is simply better than anyone else out there - Thank you!!!",
+          "datetime": "2024-02-25T18:24:09"
+        },
+        {
+          "text": "Hi 👋 i think I made mistake because I didn’t see the same result as you at  8:00 guys if u know plz let me know my mistake thanks \nYess I did it 😊 but I don’t know how 😂",
+          "datetime": "2024-02-25T16:58:07"
+        },
+        {
+          "text": "Hello, I do not want to offend anybody, but it would be good if you could give a little more info for people using Windows, because I got confused sometimes, we do not have the same laptop.",
+          "datetime": "2024-02-25T14:52:23"
+        },
+        {
+          "text": "Hi Mosh,\nThe cheatsheet link is broken, could you re-upload please?",
+          "datetime": "2024-02-25T11:58:49"
+        },
+        {
+          "text": "6:36",
+          "datetime": "2024-02-24T07:55:27"
+        },
+        {
+          "text": "5:23",
+          "datetime": "2024-02-24T06:54:11"
+        },
+        {
+          "text": "Thank you so much for this! I am trying to prepare for a job experience program I am applying for later in the year and this is going to help me so much. I may not be in the workforce yet but it doesn't hurt to start learning early!",
+          "datetime": "2024-02-23T23:06:46"
+        },
+        {
+          "text": "03:19:00 How come Mosh hates cats?!\nMosh, if you see this, know that you're the real G!",
+          "datetime": "2024-02-23T23:02:27"
+        },
+        {
+          "text": "I never comment, but damn was it good and useful. Thank you so much !",
+          "datetime": "2024-02-23T15:02:46"
+        },
+        {
+          "text": "I don't have a laptop but can I still learn without it?",
+          "datetime": "2024-02-23T13:52:08"
+        },
+        {
+          "text": "Send me the notes sir",
+          "datetime": "2024-02-23T13:10:06"
+        },
+        {
+          "text": "This type of tutorial create motivations. This is so amazing",
+          "datetime": "2024-02-23T11:28:30"
+        },
+        {
+          "text": "Am using windows en am getting a problem in printing the name",
+          "datetime": "2024-02-23T07:41:31"
+        },
+        {
+          "text": "When are you going to use double quotes and single qouote? Are they the same?",
+          "datetime": "2024-02-23T06:46:38"
+        },
+        {
+          "text": "I cannot trust this bald man... can anyone tell is this course good??",
+          "datetime": "2024-02-23T04:57:00"
+        },
+        {
+          "text": "is it still possible to land a job today after learning to code but with no degree? or was this only possible years ago ?",
+          "datetime": "2024-02-22T21:39:52"
+        },
+        {
+          "text": "Just found your vídeo  posted five years ago... amazing how tome flys.. i am getting old and i have decided to have a new hobby and i decided in python",
+          "datetime": "2024-02-22T21:26:41"
+        },
+        {
+          "text": "Very helpful so far! Thank you for putting this together.",
+          "datetime": "2024-02-22T20:50:10"
+        },
+        {
+          "text": "🧢",
+          "datetime": "2024-02-22T20:41:30"
+        },
+        {
+          "text": "You can use windows logo + period (.) to open emoji tab on windows.",
+          "datetime": "2024-02-22T19:38:26"
+        },
+        {
+          "text": "i want to learn python for Machine learning",
+          "datetime": "2024-02-22T19:09:32"
+        },
+        {
+          "text": "Sorry the pycharm is not downloading on my windows😢😢",
+          "datetime": "2024-02-22T18:41:23"
+        },
+        {
+          "text": "1:47:40",
+          "datetime": "2024-02-22T11:22:05"
+        },
+        {
+          "text": "pyCharm now costs money :(",
+          "datetime": "2024-02-22T09:48:10"
+        },
+        {
+          "text": "found a cheat sheet. Think this is it\nhttps://programmingwithmosh.com/wp-content/uploads/2019/02/Python-Cheat-Sheet.pdf",
+          "datetime": "2024-02-22T09:45:10"
+        },
+        {
+          "text": "could you please assist me to get  Python cheat sheet files?",
+          "datetime": "2024-02-22T03:36:33"
+        },
+        {
+          "text": "Why does the print only display 20 but not 10 and also 20",
+          "datetime": "2024-02-22T03:26:00"
+        },
+        {
+          "text": "after I wrote the print statement, I wasn't able to run the program. On the side, it said no interpreter please select interpreter but when I clicked on it, there was nothing to select. I already downloaded python's latest 3.12.3 and selected that as my interpreter but it didn't work. I tried multiple times but it just won't run. Please help",
+          "datetime": "2024-02-21T21:20:00"
+        },
+        {
+          "text": "is it affect if i use sublime text",
+          "datetime": "2024-02-21T11:47:58"
+        },
+        {
+          "text": "Thank you so much for this generous and useful tutorial 👌🙏",
+          "datetime": "2024-02-21T09:19:49"
+        },
+        {
+          "text": "@programmingwithmosh Chet Sheet is opening, gettting 404 error (This page couldn't be found, so let's get you turned around!) could please share the proper link",
+          "datetime": "2024-02-21T03:47:55"
+        },
+        {
+          "text": "Will @programmingwithmosh create machine learning and data science career path and learning video content for the upcoming and trending newbies ? 😅",
+          "datetime": "2024-02-21T02:55:15"
+        },
+        {
+          "text": "remarkable",
+          "datetime": "2024-02-20T19:22:41"
+        },
+        {
+          "text": "can we use an switch-case (match-case python 3.10 onwards) to do the car game?\ni think it'll be easier that wayy 🤔",
+          "datetime": "2024-02-20T18:39:03"
+        },
+        {
+          "text": "1:24:44\n\nsecret_num = 9\r\n\r\ni = 1\r\nwhile i <= 3:\r\n    print('Guess: ')\r\n    guessNum = int(input())\r\n    if guessNum == secret_num:\r\n        print('You Won!!!')\r\n        break\r\n    else:\r\n        print('Sorry, Try Again')\r\n        i += 1",
+          "datetime": "2024-02-20T15:56:32"
+        },
+        {
+          "text": "1:14:30\n\nprint('Enter your name: ')\r\nname = input()\r\n\r\nif len(name) < 3:\r\n    print('Name must be at least 3 characters long')\r\nelif len(name) > 50:\r\n    print('Name can be a maximum of 50 characters')\r\nelse:\r\n    print('Name looks good')",
+          "datetime": "2024-02-20T15:26:44"
+        },
+        {
+          "text": "1:28:57 can also be done by mimicking a do-while loop",
+          "datetime": "2024-02-20T15:20:59"
+        },
+        {
+          "text": "PyCharm cost money whatver i do ;-;",
+          "datetime": "2024-02-20T13:59:01"
+        },
+        {
+          "text": "Hi salam alaik brother ,,y name is Ali am a tennis coach and i would love to learn python to become a web developer",
+          "datetime": "2024-02-20T01:02:00"
+        },
+        {
+          "text": "The Video is 5 Years old, what do you think guys, is there a chance im still below the 200 student mark to only pay 15$? Wait a minute, 37mio views 😀",
+          "datetime": "2024-02-19T22:06:50"
+        },
+        {
+          "text": "**TIMESTAMPS**\r\n\r\n00:00:00 Introduction\r\n00:01:49 Installing Python 3\r\n00:06:10 Your First Python Program\r\n00:08:11 How Python Code Gets Executed \r\n00:11:24 How Long It Takes To Learn Python \r\n00:13:03 Variables\r\n00:18:21 Receiving Input\r\n00:22:16 Python Cheat Sheet\r\n00:22:46 Type Conversion\r\n00:29:31 Strings\r\n00:37:36 Formatted Strings\r\n00:40:50 String Methods\r\n00:48:33 Arithmetic Operations\r\n00:51:33 Operator Precedence\r\n00:55:04 Math Functions\r\n00:58:17 If Statements\r\n01:06:32 Logical Operators\r\n01:11:25 Comparison Operators\r\n01:16:17 Weight Converter Program \r\n01:20:43 While Loops\r\n01:24:07 Building a Guessing Game\r\n01:30:51 Building the Car Game\r\n01:41:48 For Loops\r\n01:47:46 Nested Loops\r\n01:55:50 Lists\r\n02:01:45 2D Lists\r\n02:05:11 My Complete Python Course \r\n02:06:00 List Methods\r\n02:13:25 Tuples\r\n02:15:34 Unpacking\r\n02:18:21 Dictionaries\r\n02:26:21 Emoji Converter\r\n02:30:31 Functions\r\n02:35:21 Parameters\r\n02:39:24 Keyword Arguments \r\n02:44:45 Return Statement\r\n02:48:55 Creating a Reusable Function \r\n02:53:42 Exceptions\r\n02:59:14 Comments\r\n03:01:46 Classes\r\n03:07:46 Constructors\r\n03:14:41 Inheritance\r\n03:19:33 Modules\r\n03:30:12 Packages\r\n03:36:22 Generating Random Values\r\n03:44:37 Working with Directories \r\n03:50:47 Pypi and Pip\r\n03:55:34 Project 1: Automation with Python\r\n04:10:22 Project 2: Machine Learning with Python \r\n04:58:37 Project 3: Building a Website with Django",
+          "datetime": "2024-02-19T16:56:01"
+        },
+        {
+          "text": "Can anyone help me ?\nList = [ 1,14,36,97,117]\nFor i in list:\n   If I %2==0:\n     list.remove(i)\nPrint (list)\n\n\n\nThis is for removing even num from list.  please help",
+          "datetime": "2024-02-19T15:32:19"
+        },
+        {
+          "text": "I keep getting syntax error.. trying to run the same codes in this video..\nAny ideas on what could be the problem 😢",
+          "datetime": "2024-02-19T13:09:49"
+        },
+        {
+          "text": "hi everyone .just wondering how long is it taking for everyone to do the car game as ive been over the previous lessons and im really struggling to understand it .are there any study tips anyones found to revise it properly ?",
+          "datetime": "2024-02-19T12:34:43"
+        },
+        {
+          "text": "Can these same work in iPad?",
+          "datetime": "2024-02-19T08:04:53"
+        },
+        {
+          "text": "2:13:00 I did like this\nfor x in numbers:\r\n   y = numbers.count(x)\r\n   if y > 1:\r\n      numbers.remove(x)\r\nprint(numbers)",
+          "datetime": "2024-02-19T07:27:50"
+        },
+        {
+          "text": "Can't download the cheat sheet, help",
+          "datetime": "2024-02-18T21:47:17"
+        },
+        {
+          "text": "For the weight converter program at 1:20, I use the code:\n\nweight = input('what is your weight? ')\r\nscale = input(' is that (l)bs or (k)gs? ')\r\n\r\nif scale == 'l' or 'L':\r\n    print(f'you are {int(weight) / 2.2} kilos')\r\n\r\nelse:\r\n    print('you are', int(weight) * 2.2, 'pounds')\n\n\nor I use an \"elif\" statement, and no matter what i input for \"scale\", unless I use the \".upper\" method, it uses the first equation and prints out kilos. is it possible to make it work without the \".upper\" method?",
+          "datetime": "2024-02-18T18:55:38"
+        }
+      ]
+    },
+    {
+      "video_id": "rfscVS0vtbw",
+      "comments": [
+        {
+          "text": "Want more from Mike? He's starting a coding RPG/Bootcamp - https://simulator.dev/",
+          "datetime": "2021-03-09T18:41:00"
+        },
+        {
+          "text": "So everyone who comments is experienced or either wanting to gain experience with Python",
+          "datetime": "2024-03-04T02:57:57"
+        },
+        {
+          "text": "Pycharm community edition doesn't showing",
+          "datetime": "2024-03-03T13:37:08"
+        },
+        {
+          "text": "402",
+          "datetime": "2024-03-03T13:29:30"
+        },
+        {
+          "text": "I found that i understood everything so fast and easy to learn, but absorbing to store the information long-term was not easy. Toptip: put the learning into practice whilst watching the video.",
+          "datetime": "2024-03-02T23:29:03"
+        },
+        {
+          "text": "Thank you for taking the time to do this for us all.",
+          "datetime": "2024-03-02T15:17:29"
+        },
+        {
+          "text": "35 yo welder here trying to understand IT world. Is this course still relevant in 2024?",
+          "datetime": "2024-03-02T14:09:07"
+        },
+        {
+          "text": "Awsome!  Thank you so much, Mike.",
+          "datetime": "2024-03-02T13:25:55"
+        },
+        {
+          "text": "if the phrase has two letters same then index fn only returns the first occurance how do u find the next occurance?",
+          "datetime": "2024-03-01T14:09:42"
+        },
+        {
+          "text": "Thank you. You guys are a blessing to this world, and with the kind of benefit I have obtained , thanks to your sincere effort and hard work creating something I have gained so much value from without having to pay you a dime gives me hope in humanity. I also believe without any doubt that by now the universe is rewarding your efforts exponentially, such pure essence does not go unrewarded, enjoy it all, its more than well deserved. Bless up, one love",
+          "datetime": "2024-03-01T12:41:07"
+        },
+        {
+          "text": "гей",
+          "datetime": "2024-03-01T11:19:57"
+        },
+        {
+          "text": "Thank you so much",
+          "datetime": "2024-03-01T08:12:45"
+        },
+        {
+          "text": "Just finished this course and I wanted to say it was amazing! Can't imagine why anyone would dislike it. You went through all the basics and explained them clearly, so thanks so much for this!! 😀",
+          "datetime": "2024-02-29T12:18:59"
+        },
+        {
+          "text": "Thank you,Mike.",
+          "datetime": "2024-02-29T04:10:01"
+        },
+        {
+          "text": "kosmk",
+          "datetime": "2024-02-28T17:25:38"
+        },
+        {
+          "text": "Weirdly enough, when I go to JetBrains, there is no download option for Pycharm community and only for Pycharm pro.\nEDIT: Nevermind guys I found the community version on their website.",
+          "datetime": "2024-02-28T06:55:43"
+        },
+        {
+          "text": "🤝",
+          "datetime": "2024-02-27T09:46:19"
+        },
+        {
+          "text": "Giraffe Academy is 15 letters when you start counting with 1 but not 15 when started with 0. So,  Explain?  \nprint (\"explain\")",
+          "datetime": "2024-02-26T09:22:41"
+        },
+        {
+          "text": "At 2:32:42 why is the \"not\" added with the out_of_guesses",
+          "datetime": "2024-02-26T08:58:57"
+        },
+        {
+          "text": "I can't install terminal, I went to microsoft store and I clicked \"Dowload\", but nothing happened.",
+          "datetime": "2024-02-25T14:29:19"
+        },
+        {
+          "text": "Guys it will be very helpful if you subscribe to my youtube channel. I make videos about programming so if you like that kindly subscribe youtube.com/@codeplayquest",
+          "datetime": "2024-02-25T14:14:06"
+        },
+        {
+          "text": "Finally finished watching after a week of spaced out 30-1 hour sessions. Really hope everyone who is interested tries this out. It is really easy to understand and follow along.",
+          "datetime": "2024-02-24T20:13:35"
+        },
+        {
+          "text": "Day 1: 26:39 ( i learnd print command, strings, variables, data types (numbers, plain text, boolean value)\n\nDay 2: 38:19  learned alot about strings in the course. The book taught me eval() and input() function\n\nDay3: 1:04:53 learned alot better varibles, input(), lists etc",
+          "datetime": "2024-02-24T19:50:32"
+        },
+        {
+          "text": "58:50",
+          "datetime": "2024-02-24T19:28:29"
+        },
+        {
+          "text": "This video really helped me understand the basics of python , Thanks Mate",
+          "datetime": "2024-02-23T19:08:12"
+        },
+        {
+          "text": "3:53:00 I have absolutely no idea what \"probation\" or \"gpa\" is, never heard of it. Otherwise, an absolutely great video! I'm finally starting to understand Python.",
+          "datetime": "2024-02-23T10:24:16"
+        },
+        {
+          "text": "Этому видео 5 лет и программы выглядят уже абсолютно по-другому(",
+          "datetime": "2024-02-23T07:48:18"
+        },
+        {
+          "text": "So I drew the triangle but when I click “run” it says \n\nError running, python script path must be set\n\nHow do I fix it?",
+          "datetime": "2024-02-23T04:48:18"
+        },
+        {
+          "text": "2:07:17",
+          "datetime": "2024-02-22T18:28:31"
+        },
+        {
+          "text": "It was great to add audio track",
+          "datetime": "2024-02-22T18:28:14"
+        },
+        {
+          "text": "i came for the tutorials, I stayed for the lost reference lol",
+          "datetime": "2024-02-22T05:29:55"
+        },
+        {
+          "text": "This video is awesome.",
+          "datetime": "2024-02-21T17:01:14"
+        },
+        {
+          "text": "Lucky_numbers = [lost]",
+          "datetime": "2024-02-21T16:39:03"
+        },
+        {
+          "text": "Excellent teacher!",
+          "datetime": "2024-02-20T16:22:39"
+        },
+        {
+          "text": "here 5 years later",
+          "datetime": "2024-02-20T16:10:52"
+        },
+        {
+          "text": "python is simply amazing to be able to automate everything",
+          "datetime": "2024-02-19T17:54:23"
+        },
+        {
+          "text": "It was a wonderful refresh for my python basics in just 5 hours",
+          "datetime": "2024-02-19T08:33:09"
+        },
+        {
+          "text": "For loops, classes and object are quick and fast forward bit confusing. Rest is good. Thanks for the course good job",
+          "datetime": "2024-02-19T08:26:57"
+        },
+        {
+          "text": "I think Print are the boss in python 🤔",
+          "datetime": "2024-02-18T00:25:35"
+        },
+        {
+          "text": "I didn't think that for one's mathematics Essential for programming 😮",
+          "datetime": "2024-02-18T00:21:49"
+        },
+        {
+          "text": "17/02/24: 25:09",
+          "datetime": "2024-02-17T22:11:54"
+        },
+        {
+          "text": "Hi friends, what happened to Dreamweaver, and about apple scripts?",
+          "datetime": "2024-02-17T14:20:30"
+        },
+        {
+          "text": "recommendations for next steps after this  please ? thank you !",
+          "datetime": "2024-02-17T05:29:37"
+        },
+        {
+          "text": "Thank you for the course, very well presented, you are a natural and thank you for doing this for free, am sure the universe is rewarding you accordingly. bless up",
+          "datetime": "2024-02-17T05:28:38"
+        },
+        {
+          "text": "Just started learning how to program! Wish me luck.",
+          "datetime": "2024-02-16T14:57:55"
+        },
+        {
+          "text": "why has no one mentioned the subtle office references haha",
+          "datetime": "2024-02-15T10:00:24"
+        },
+        {
+          "text": "Really helped out i watched it once and awlready knew everything about python :)",
+          "datetime": "2024-02-14T22:10:15"
+        },
+        {
+          "text": "Thanks Mike.",
+          "datetime": "2024-02-14T17:11:37"
+        },
+        {
+          "text": "2024 💔",
+          "datetime": "2024-02-14T16:53:14"
+        },
+        {
+          "text": "I finally completed a code academy course in python so I can understand what this guy is saying. I am taking it one half hour at a time.",
+          "datetime": "2024-02-13T21:23:18"
+        },
+        {
+          "text": "tip  = dont use chat gpt if u find a problem/bug",
+          "datetime": "2024-02-13T21:17:52"
+        },
+        {
+          "text": "Day 1 38:18\nDay 2 1:10:45",
+          "datetime": "2024-02-13T20:07:25"
+        },
+        {
+          "text": "Day 1 38:18",
+          "datetime": "2024-02-13T20:03:49"
+        },
+        {
+          "text": "This absolute legends chose as \"friends\" charachters from The Office and as \"Lucky numbers\" the numbers from Lost. It was already an amazing course but he decided to enter his name in history with these details.",
+          "datetime": "2024-02-13T13:40:25"
+        },
+        {
+          "text": "Is no one gonna talk about the 4,8,15,16,23,42 lost reference on list functions? Lol.",
+          "datetime": "2024-02-13T01:44:00"
+        },
+        {
+          "text": "Hello I downloaded Pycharm but it is only free for 30 days. Is visual code the same thing? I don't want to pay for it",
+          "datetime": "2024-02-12T16:48:31"
+        },
+        {
+          "text": "2:00:00 how do we get the input for num1, num2, num3",
+          "datetime": "2024-02-12T14:41:43"
+        },
+        {
+          "text": "Time stamps + descriptions:\nDay one:\n1:03:19 (didn’t really learn that much because i have knowledge in coding in other languages, just learned a few neat things)\nDay two:\n1:54:12 (Learned about tuples and starting comparisons tomorrow, I already have past knowledge in other languages with a lot of whats in the video)\n2:32:59 (just some basic stuff)",
+          "datetime": "2024-02-12T06:37:37"
+        },
+        {
+          "text": "Day One: 27:05",
+          "datetime": "2024-02-12T02:20:35"
+        },
+        {
+          "text": "1:08:51",
+          "datetime": "2024-02-11T19:46:18"
+        },
+        {
+          "text": "IN the subtitles: \"draft academy\"",
+          "datetime": "2024-02-11T14:35:48"
+        },
+        {
+          "text": "Awesome tutorial! I enjoy following along on iPad while writing the code in Pythonista app.",
+          "datetime": "2024-02-11T04:04:04"
+        },
+        {
+          "text": "HI  , whats the difference betwee from student import student and only have \"import student\" like you did for useful_tools?",
+          "datetime": "2024-02-10T18:56:57"
+        },
+        {
+          "text": "Watched it multiple times, but I am unable to understand the importance of the keywords index and range in the code. Anybody? 2:45:00",
+          "datetime": "2024-02-10T16:05:16"
+        },
+        {
+          "text": "day-1 48:26\nday-2 1:18:58\nday-3 1:40:09\nday-4  2:47:16\nday-5 3:44:00\nday-6&7 finished it :3",
+          "datetime": "2024-02-10T10:04:08"
+        },
+        {
+          "text": "I use Windows but as I click enter to go to next line it executes the code in the first line plus I can't edit a line once I've gone to the next line as well I'm using python 3.12 can you tell me what's the problem please?",
+          "datetime": "2024-02-09T14:30:50"
+        },
+        {
+          "text": "Enjoyed this course a lot. Thank you for the efforts you put here.",
+          "datetime": "2024-02-09T12:44:20"
+        },
+        {
+          "text": "Challenge myself to complete this in 3 days ( 9/2 - 12/2) Been long time not doing the phython 😢\r\n10:23 = Drawing;'\r\n15:23 = Variables & Data types\r\n27:03 = Working with Strings\r\n38:44 = Working WIth Numbers\r\n48:26 = Getting input from users\r\n52:50 = Building a basic calculator\r\n58:40 = Building a Mad Libs game\r\n1:03:10 = Making Lists (I am here now)\n1:10:44 = Making list functions \n1:19:10 = Tuples\r\n1:24:15 = Functions 🔥🔥\r\n1:35:11 = Return statement\r\n1:40:32 If Statements\r\n1:54:34 = If statements & Comparisons\r\n2:00:37 = Building a better calculator\r\n2:07:17 = Dictionaries\r\n2:14:13 = White Loop \r\n2:20:34 = Building a Guessing Game \r\n2:32:44 = For Loops 2:41:20 = Exponent Function \r\n2:47:13 = 2D Lists & Nested Loops \r\n2:52:41 = Building a Translator \r\n3:00:18 = Comments \r\n3:04:17 = Try/Except\r\n3:12:54 = Reading Files\r\n3:21:52 = Writing FIles\r\n3:28:13 = Modules & Pip\r\n3:44:22 = Classes & Objects\r\n3:58:03 = Building a Multiple Choise Quiz\r\n4:12:37 = Inheriance\r\n4:20:43 = Python interpreterhttps\n\n\nlets do it guys!",
+          "datetime": "2024-02-09T07:06:01"
+        },
+        {
+          "text": "rob 2010 2015 2019 2021 2023",
+          "datetime": "2024-02-08T15:50:46"
+        },
+        {
+          "text": "pessi",
+          "datetime": "2024-02-08T15:50:15"
+        },
+        {
+          "text": "pessi",
+          "datetime": "2024-02-08T15:50:08"
+        },
+        {
+          "text": "pessi",
+          "datetime": "2024-02-08T15:50:01"
+        },
+        {
+          "text": "This is nothing less than a blessing for beginners - Thanks a Zillion Mike! May I have your full name? I will connect with you on LinkedIn 👏👏👏👏👏👏👏👏😊😊👌👌👌👌",
+          "datetime": "2024-02-08T08:50:05"
+        },
+        {
+          "text": "nice",
+          "datetime": "2024-02-07T18:58:21"
+        },
+        {
+          "text": "Just released my Free 13 Hour Python Course for Absolute Beginners in 2024 here on YouTube!\n\nCheck it out ~ https://www.youtube.com/watch?v=rM-jDeSgOQw",
+          "datetime": "2024-02-07T07:24:45"
+        },
+        {
+          "text": "I LOVE YOU SO MUCH!!!! IM GOING TO TOUCH YOU!!!!",
+          "datetime": "2024-02-07T04:21:12"
+        },
+        {
+          "text": "cool video)",
+          "datetime": "2024-02-06T12:07:37"
+        },
+        {
+          "text": "neeed help! how can i fix 3:54:07 Classes & Objects\nI just follow along and copy him but got it wrong\nit says: TypeError: student() takes no arguments",
+          "datetime": "2024-02-06T10:48:48"
+        },
+        {
+          "text": "Tomorrow is my Python midterm for my programming class at University. I already know Java as I learned in high school, but I have been slacking and did not pay attention or go to lecture for my programming class. It is currently 5:36am. This video is saving my life. Next level procrastination learning all of python the night before the exam.",
+          "datetime": "2024-02-06T10:46:12"
+        },
+        {
+          "text": "ADHD",
+          "datetime": "2024-02-06T07:33:09"
+        },
+        {
+          "text": "i have downloaded 3.12.1 , is it gonna work the same way?",
+          "datetime": "2024-02-05T09:46:10"
+        },
+        {
+          "text": "String methods are not functions.",
+          "datetime": "2024-02-04T21:31:10"
+        },
+        {
+          "text": "god i finished it in a day (yes the day ended as a result)",
+          "datetime": "2024-02-04T20:21:21"
+        },
+        {
+          "text": "He helped me to refresh my memory back 20 years.in only 04 Hours and his course became a reference of me in my current jobs' transformation do infrastructure as a Code",
+          "datetime": "2024-02-04T18:58:31"
+        },
+        {
+          "text": "Complete.",
+          "datetime": "2024-02-04T17:20:19"
+        },
+        {
+          "text": "I just had to say this for anyone using visual studio code that the double quotes gives you a name not defined error . I'm new to python so it wasn't making sense to me why it wasn't working .So in VSC just use single quotes. I hope this helps anyone with the same problem .",
+          "datetime": "2024-02-04T05:54:59"
+        },
+        {
+          "text": "Thank you so much it was the best beginner course fr me.",
+          "datetime": "2024-02-03T18:38:47"
+        },
+        {
+          "text": "Why python?\nWhy not!",
+          "datetime": "2024-02-03T11:46:37"
+        },
+        {
+          "text": "I came here to announce that I finished the entire thing.",
+          "datetime": "2024-02-03T00:16:22"
+        },
+        {
+          "text": "Day 1: 27:03",
+          "datetime": "2024-02-02T17:37:22"
+        },
+        {
+          "text": "Best python tutorial EVER.",
+          "datetime": "2024-02-02T15:12:07"
+        },
+        {
+          "text": "Toxic management has led me here.  2/1/2024. God Bless us all.",
+          "datetime": "2024-02-01T10:51:26"
+        },
+        {
+          "text": "first challenge : how do I type a straight bar on a Mac ? I but a capital I instead but lol",
+          "datetime": "2024-02-01T09:04:38"
+        },
+        {
+          "text": "I have a question. I want to change a name in plain text: Tom is old. character_name = \"John\". What will be the whole print command line? I'm lost with quotation marks, spaces and comma on the begining. Thank you.",
+          "datetime": "2024-02-01T08:45:07"
+        },
+        {
+          "text": "Love from India 👌❤️",
+          "datetime": "2024-02-01T05:39:09"
+        },
+        {
+          "text": "Why do I get an EOFError when I tried to make my basic calculator",
+          "datetime": "2024-01-31T21:59:52"
+        },
+        {
+          "text": "58:00",
+          "datetime": "2024-01-31T12:46:33"
+        },
+        {
+          "text": "Session 1 38:22",
+          "datetime": "2024-01-30T15:07:32"
+        },
+        {
+          "text": "42:05",
+          "datetime": "2024-01-30T12:30:33"
+        },
+        {
+          "text": "I really enjoyed it",
+          "datetime": "2024-01-29T22:15:36"
+        }
+      ]
+    }
+  ]
+}

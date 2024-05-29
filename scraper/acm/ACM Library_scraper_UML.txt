@@ -1,0 +1,32 @@
+@startuml
+class PageParser {
+    handle_starttag()
+    handle_endtag()
+    handle_data()
+        in_title
+    in_references_item
+    cbu
+    title
+    in_title
+    cbu
+    in_references_item
+    in_title
+    in_references_item
+    title
+    __init__()
+}
+class CitationParser {
+    handle_starttag()
+    download_doc()
+    get_top_ranked()
+    download()
+    mostreferenced()
+    info()
+    remove_uid_file()
+    remove_uid()
+    remove_missing_meta()
+        __init__()
+}
+HTMLParser <|-- PageParser
+HTMLParser <|-- CitationParser
+@enduml

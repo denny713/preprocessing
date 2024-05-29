@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>py2flowchart</title>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/flowchart/1.14.0/flowchart.min.js"></script>
+    </head>
+    <body>
+        <div id="canvas"></div>
+        <pre id="code"></pre>
+        <script>
+            $("#code").html(code);
+            code= `
+start=>start: start
+operation1=>operation: from html.parser import HTMLParser
+operation2=>operation: import json
+operation3=>operation: import requests
+operation4=>operation: import sqlite3
+operation5=>operation: FILE_NAME = 'docs.json'
+operation6=>operation: DB_NAME = 'docs.db'
+operation7=>operation:         with open(FILE_NAME, 'r') as f:
+            return json.load(f)
+    except:
+        return {}
+operation8=>operation:         json.dump(docs, f)
+operation9=>operation: docs = load_docs_file()
+operation10=>operation: con = sqlite3.connect(DB_NAME)
+operation11=>operation: cur = con.cursor()
+operation12=>operation: cur.execute('CREATE TABLE IF NOT EXISTS docs (uid TEXT NOT NULL PRIMARY KEY, doc TEXT NOT NULL)')
+operation13=>operation: con.commit()
+condition14=>condition: for uid in docs|past
+operation15=>operation: doc = docs[uid]
+operation16=>operation: cur.execute('INSERT INTO docs (uid, doc) VALUES (?, ?)', (uid, json.dumps(doc, ensure_ascii = False)))
+operation17=>operation: con.commit()
+operation18=>operation: con.close()
+operation19=>operation: docs = {}
+operation20=>operation: con = sqlite3.connect(DB_NAME)
+operation21=>operation: cur = con.cursor()
+operation22=>operation: cur.execute('CREATE TABLE IF NOT EXISTS docs (uid TEXT NOT NULL PRIMARY KEY, doc TEXT NOT NULL)')
+operation23=>operation: con.commit()
+operation24=>operation: cur.execute('SELECT uid, doc FROM docs')
+condition25=>condition: for row in cur.fetchall()|past
+operation26=>operation: docs[row[0]] = json.loads(row[1])
+operation27=>operation: con.close()
+operation28=>operation: return docs
+operation29=>operation: con = sqlite3.connect(DB_NAME)
+operation30=>operation: cur = con.cursor()
+operation31=>operation: cur.execute('INSERT INTO docs (uid, doc) VALUES (?, ?)', (uid, json.dumps(doc, ensure_ascii = False)))
+operation32=>operation: con.commit()
+operation33=>operation: con.close()
+operation34=>operation:     def __init__(self):
+        HTMLParser.__init__(self)
+        self.in_title = False
+        self.in_references_item = False
+        self.refs = []
+        self.cbu = None
+        self.title = None
+
+    def handle_starttag(self, tag, attrs):
+        d = dict(attrs)
+        if tag == 'h1' and 'citation__title' in d['class']:
+            self.in_title = True
+        elif tag == 'a' and 'data-ajaxurl' in d:
+            cited_by_url = d['data-ajaxurl']
+            if cited_by_url.startswith('/action/ajaxShowCitedBy'):
+                self.cbu = cited_by_url
+        elif self.in_references_item:
+            if tag == 'a':
+                link = d['href']
+                if link.startswith('https://dl.acm.org/doi/'):
+                    link = link[23:]
+                    self.refs.append(link)
+        else:
+            if tag == 'li' and 'class' in d and 'references__item' in d['class']:
+                self.in_references_item = True
+
+    def handle_endtag(self, tag):
+        if self.in_title:
+            self.in_title = False
+        elif self.in_references_item:
+            if tag == 'li':
+                self.in_references_item = False
+
+    def handle_data(self, data):
+        if self.in_title:
+            self.title = data
+operation35=>operation:     def __init__(self):
+        HTMLParser.__init__(self)
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        d = dict(attrs)
+        if tag == 'a':
+            link = d['href']
+            if link.startswith('https://doi.org/'):
+                link = link[16:]
+                self.links.append(link)
+operation36=>operation: r = requests.get('https://dl.acm.org/doi/' + doi)
+operation37=>operation: page_parser = PageParser()
+operation38=>operation: page_parser.feed(r.text)
+operation39=>operation: doc = {'references': page_parser.refs}
+condition40=>condition: if page_parser.title
+operation41=>operation: doc['title'] = page_parser.title
+operation42=>operation: pass
+condition43=>condition: if page_parser.cbu
+operation44=>operation: r = requests.get('https://dl.acm.org' + page_parser.cbu)
+operation45=>operation: citation_parser = CitationParser()
+operation46=>operation: citation_parser.feed(r.text)
+operation47=>operation: doc['citedby'] = citation_parser.links
+operation48=>operation: doc['citedby'] = []
+operation49=>operation:         'dois': doi,
+        'targetFile': 'custom-bibtex',
+        'format': 'bibTex'
+    })
+operation50=>operation: j = json.loads(r.text)
+operation51=>operation: kvs = list(j['items'][0].items())[0][1]
+condition52=>condition: if 'title' not in doc and 'title' in kvs
+operation53=>operation: doc['title'] = kvs['title']
+operation54=>operation: pass
+condition55=>condition: for k in ['original-date', 'issued']|past
+condition56=>condition: if k in kvs
+operation57=>operation: date = kvs[k]
+operation58=>operation: ds = map(str, date['date-parts'][0])
+operation59=>operation: doc['date'] = '/'.join(ds)
+operation60=>operation: break
+operation61=>operation: pass
+condition62=>condition: if 'author' in kvs
+operation63=>operation: l = []
+condition64=>condition: for a in kvs['author']|past
+operation65=>operation: name = ''
+condition66=>condition: if 'given' in a
+operation67=>operation: name += a['given']
+operation68=>operation: pass
+condition69=>condition: if 'family' in a
+condition70=>condition: if name
+operation71=>operation: name += ' '
+operation72=>operation: pass
+operation73=>operation: name += a['family']
+operation74=>operation: pass
+operation75=>operation: l.append(name)
+operation76=>operation: doc['authors'] = ', '.join(l)
+operation77=>operation: pass
+operation78=>operation: return doc
+operation79=>operation: r = {uid:0 for uid in missing}
+operation80=>operation: c = {uid:0 for uid in missing}
+condition81=>condition: for doc in docs.values()|past
+condition82=>condition: for uid in doc['references']|past
+condition83=>condition: if uid in r
+operation84=>operation: r[uid] = r[uid] + 1
+operation85=>operation: pass
+condition86=>condition: for uid in doc['citedby']|past
+condition87=>condition: if uid in c
+operation88=>operation: c[uid] = c[uid] + 1
+operation89=>operation: pass
+operation90=>operation: queue = set()
+operation91=>operation: queue.add(max(r.items(), key = lambda x: x[1])[0])
+operation92=>operation: queue.add(max(c.items(), key = lambda x: x[1])[0])
+operation93=>operation: return queue
+operation94=>operation: all_docs = load_docs()
+operation95=>operation: docs = {}
+operation96=>operation: uids = set([orig])
+operation97=>operation: queue = set([orig])
+condition98=>condition: while len(docs) < num_docs|past
+condition99=>condition: if len(queue) == 0
+operation100=>operation: missing = uids - set(docs.keys())
+condition101=>condition: if len(missing) == 0
+inputoutput102=>inputoutput: print('No documents are missing, stopping.')
+operation103=>operation: exit()
+operation104=>operation: pass
+operation105=>operation: queue |= get_top_ranked(docs, missing)
+operation106=>operation: pass
+operation107=>operation: uid = queue.pop()
+condition108=>condition: if uid in all_docs
+inputoutput109=>inputoutput: print('%s: Taking %s from store' % (len(docs) + 1, uid))
+operation110=>operation: doc = all_docs[uid]
+inputoutput111=>inputoutput: print('%s: Downloading %s...' % (len(docs) + 1, uid))
+operation112=>operation: doc = download_doc(uid)
+operation113=>operation: all_docs[uid] = doc
+operation114=>operation: save_doc(uid, doc)
+operation115=>operation: docs[uid] = doc
+operation116=>operation: doc_uids = set(doc['references']) | set(doc['citedby'])
+operation117=>operation: uids |= doc_uids
+condition118=>condition: if uid == orig
+operation119=>operation: queue |= doc_uids - set([orig])
+operation120=>operation: pass
+operation121=>operation: return docs
+operation122=>operation: rank = {uid:0 for uid in docs}
+condition123=>condition: for doc in docs.values()|past
+condition124=>condition: for uid in set(doc['references'])|past
+condition125=>condition: if uid in rank
+operation126=>operation: rank[uid] = rank[uid] + 1
+operation127=>operation: pass
+operation128=>operation: rank = sorted(rank.items(), key = lambda x: -x[1])
+condition129=>condition: for i in range(min(100, len(docs)))|past
+operation130=>operation: uid, cnt = rank[i]
+operation131=>operation: doc = docs[uid]
+inputoutput132=>inputoutput: print('%3d, %8s, %3d (%3d), %s. %s: %s' % (i + 1, uid, cnt, len(doc['citedby']), doc['date'] if 'date' in doc else '??/??/????', doc['authors'] if 'authors' in doc else '???', doc['title'] if 'title' in doc else '???'))
+condition133=>condition: for (key, value) in doc.items()|past
+condition134=>condition: if key not in ['references', 'citedby']
+inputoutput135=>inputoutput: print('%s: %s' % (key, value))
+operation136=>operation: pass
+inputoutput137=>inputoutput: print('references: %s' % len(doc['references']))
+inputoutput138=>inputoutput: print('cited by: %s' % len(doc['citedby']))
+operation139=>operation: docs = load_docs_file()
+condition140=>condition: if uid in docs
+operation141=>operation: del docs[uid]
+operation142=>operation: pass
+operation143=>operation: save_docs_file(docs)
+operation144=>operation: con = sqlite3.connect(DB_NAME)
+operation145=>operation: cur = con.cursor()
+operation146=>operation: cur.execute('DELETE FROM docs WHERE uid=?', (uid,))
+operation147=>operation: con.commit()
+operation148=>operation: con.close()
+operation149=>operation: docs = load_docs()
+operation150=>operation: uids = list(docs.keys())
+condition151=>condition: for uid in uids|past
+operation152=>operation: doc = docs[uid]
+condition153=>condition: if len(set(doc.keys()) - set(['references', 'citedby'])) == 0
+operation154=>operation: remove_uid(uid)
+operation155=>operation: del docs[uid]
+operation156=>operation: pass
+operation157=>operation: doi = '10.5555/2387880.2387905'
+operation158=>operation: documents_to_download = 300
+operation159=>operation: docs = download(doi, documents_to_download)
+operation160=>operation: info(docs[doi])
+operation161=>operation: mostreferenced(docs, doi)
+end=>end: end
+start->operation1
+operation1->operation2
+operation2->operation3
+operation3->operation4
+operation4->operation5
+operation5->operation6
+operation6->operation7
+operation7->operation8
+operation8->operation9
+operation9->operation10
+operation10->operation11
+operation11->operation12
+operation12->operation13
+operation13->condition14
+condition14(yes)->operation15
+operation15->operation16
+operation16(left)->condition14
+condition14(no)->operation17
+operation17->operation18
+operation18->operation19
+operation19->operation20
+operation20->operation21
+operation21->operation22
+operation22->operation23
+operation23->operation24
+operation24->condition25
+condition25(yes)->operation26
+operation26(left)->condition25
+condition25(no)->operation27
+operation27->operation28
+operation28->operation29
+operation29->operation30
+operation30->operation31
+operation31->operation32
+operation32->operation33
+operation33->operation34
+operation34->operation35
+operation35->operation36
+operation36->operation37
+operation37->operation38
+operation38->operation39
+operation39->condition40
+condition40(yes)->operation41
+condition40(no)->operation42
+operation41->condition43
+operation42->condition43
+condition43(yes)->operation44
+operation44->operation45
+operation45->operation46
+operation46->operation47
+condition43(no)->operation48
+operation47->operation49
+operation48->operation49
+operation49->operation50
+operation50->operation51
+operation51->condition52
+condition52(yes)->operation53
+condition52(no)->operation54
+operation53->condition55
+operation54->condition55
+condition55(yes)->condition56
+condition56(yes)->operation57
+operation57->operation58
+operation58->operation59
+operation59->operation60
+condition56(no)->operation61
+operation60->condition55
+operation61->condition55
+condition55(no)->condition62
+condition62(yes)->operation63
+operation63->condition64
+condition64(yes)->operation65
+operation65->condition66
+condition66(yes)->operation67
+condition66(no)->operation68
+operation67->condition69
+operation68->condition69
+condition69(yes)->condition70
+condition70(yes)->operation71
+condition70(no)->operation72
+operation71->operation73
+operation72->operation73
+condition69(no)->operation74
+operation73->operation75
+operation74->operation75
+operation75(left)->condition64
+condition64(no)->operation76
+condition62(no)->operation77
+operation76->operation78
+operation77->operation78
+operation78->operation79
+operation79->operation80
+operation80->condition81
+condition81(yes)->condition82
+condition82(yes)->condition83
+condition83(yes)->operation84
+condition83(no)->operation85
+operation84->condition82
+operation85->condition82
+condition82(no)->condition86
+condition86(yes)->condition87
+condition87(yes)->operation88
+condition87(no)->operation89
+operation88->condition86
+operation89->condition86
+condition86(no)->condition81
+condition81(no)->operation90
+operation90->operation91
+operation91->operation92
+operation92->operation93
+operation93->operation94
+operation94->operation95
+operation95->operation96
+operation96->operation97
+operation97->condition98
+condition98(yes)->condition99
+condition99(yes)->operation100
+operation100->condition101
+condition101(yes)->inputoutput102
+inputoutput102->operation103
+condition101(no)->operation104
+operation103->operation105
+operation104->operation105
+condition99(no)->operation106
+operation105->operation107
+operation106->operation107
+operation107->condition108
+condition108(yes)->inputoutput109
+inputoutput109->operation110
+condition108(no)->inputoutput111
+inputoutput111->operation112
+operation112->operation113
+operation113->operation114
+operation110->operation115
+operation114->operation115
+operation115->operation116
+operation116->operation117
+operation117->condition118
+condition118(yes)->operation119
+condition118(no)->operation120
+operation119->condition98
+operation120->condition98
+condition98(no)->operation121
+operation121->operation122
+operation122->condition123
+condition123(yes)->condition124
+condition124(yes)->condition125
+condition125(yes)->operation126
+condition125(no)->operation127
+operation126->condition124
+operation127->condition124
+condition124(no)->condition123
+condition123(no)->operation128
+operation128->condition129
+condition129(yes)->operation130
+operation130->operation131
+operation131->inputoutput132
+inputoutput132(left)->condition129
+condition129(no)->condition133
+condition133(yes)->condition134
+condition134(yes)->inputoutput135
+condition134(no)->operation136
+inputoutput135->condition133
+operation136->condition133
+condition133(no)->inputoutput137
+inputoutput137->inputoutput138
+inputoutput138->operation139
+operation139->condition140
+condition140(yes)->operation141
+condition140(no)->operation142
+operation141->operation143
+operation142->operation143
+operation143->operation144
+operation144->operation145
+operation145->operation146
+operation146->operation147
+operation147->operation148
+operation148->operation149
+operation149->operation150
+operation150->condition151
+condition151(yes)->operation152
+operation152->condition153
+condition153(yes)->operation154
+operation154->operation155
+condition153(no)->operation156
+operation155->condition151
+operation156->condition151
+condition151(no)->operation157
+operation157->operation158
+operation158->operation159
+operation159->operation160
+operation160->operation161
+operation161->end
+
+`;
+            chart = flowchart.parse(code);
+            chart.drawSVG('canvas', {"line-width": 1, "arrow-end": "open"});
+        </script>
+    </body>
+</html>
