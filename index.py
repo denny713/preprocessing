@@ -229,7 +229,7 @@ def preprocessing():
     if 'remove_symbol' in preprocess_options:
         def remove_symbols(text):
             punct = '''.,;:-?!'"()[]/`_'''
-            pattern = f'[^\w\s{re.escape(punct)}]'
+            pattern = rf'[^\w\s{re.escape(punct)}]'
             text = re.sub(pattern, '', text)
             return text
         processed_text = processed_text.apply(remove_symbols)

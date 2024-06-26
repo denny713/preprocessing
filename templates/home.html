@@ -1,87 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/styles.css" />
-        <title>Preprocessing</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    </head>
-    <body>
-        <div class="app" style="padding-top: 200px; background-image: url('../assets/bg.jpg'); background-size: cover; background-position: center;">
-            <div class="container-fluid my-4">
-                <div class="row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5">
-                        <h1 class="margin-left">Text-Preprocessing</h1>
-                        <p class="margin-left">
-                            Text preprocessing adalah suatu proses untuk menyeleksi data text agar menjadi lebih terstruktur lagi dengan melalui serangkaian tahapan.
-                            Aplikasi ini berguna untuk memproses teks yang formatnya tidak terstruktur dan mengubahnya menjadi data yang siap diproses oleh komputer.
-                        </p>
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-4">
-                        <div class="card border-0 shadow-sm mt-2">
-                            <div class="card-body">
-                                <div class="input">
-                                    <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
-                                        <div class="row" style="margin: auto;">
-                                            <div class="col-9">
-                                                <label for="file_csv">Upload File CSV</label><br>
-                                            </div>
-                                            <div class="w-100"></div>
-                                            <div class="col-9">
-                                                <input type="file" id="file_csv" name="file_csv">
-                                            </div>
-                                            <div class="col-3">
-                                                <input class="btn btn-primary btn-sm text-center" type="Submit" name="" value="Upload">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <br>
-                                    {% if show_kolom %}
-                                    <form action = "/selector" method = "POST" enctype = "multipart/form-data">
-                                        <div class="row" style="margin: auto;">
-                                            <div class="col-9">
-                                                <label for="column_name">Nama kolom yang akan diproses</label><br>
-                                            </div>
-                                            <div class="w-100"></div>
-                                            <div class="col-9">
-                                                <select id="column_name" name="column_name" style="width: 250px;">
-                                                    {% for option in options %}
-                                                        <option value="{{ options.index(option) }}">{{ option }}</option>
-                                                    {% endfor %}
-                                                </select>
-                                            </div>
-                                            <div class="col-3">
-                                                <input class="btn btn-primary btn-sm text-center" type="Submit" name="" value="Submit">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    {% endif %}
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
+    <title>Preprocessing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div class="app"
+     style="padding-top: 200px; background-image: url('../assets/bg.jpg'); background-size: cover; background-position: center;">
+    <div class="container-fluid my-4">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <h1 class="margin-left">Text-Preprocessing</h1>
+                <p class="margin-left">
+                    Text preprocessing adalah suatu proses untuk menyeleksi data text agar menjadi lebih terstruktur
+                    lagi dengan melalui serangkaian tahapan.
+                    Aplikasi ini berguna untuk memproses teks yang formatnya tidak terstruktur dan mengubahnya menjadi
+                    data yang siap diproses oleh komputer.
+                </p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <div class="card border-0 shadow-sm mt-2">
+                    <div class="card-body">
+                        <div class="input">
+                            <form action="/uploader" method="POST" enctype="multipart/form-data">
+                                <div class="row" style="margin: auto;">
+                                    <div class="col-9">
+                                        <label for="file_csv">Upload File CSV</label><br>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-9">
+                                        <input type="file" id="file_csv" name="file_csv">
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="btn btn-primary btn-sm text-center" type="Submit" name=""
+                                               value="Upload">
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        {% with messages = get_flashed_messages(with_categories=true) %}
-                            {% if messages %}
-                            <div class="border-0 shadow-sm mt-2">
-                                <div class="alert alert-warning">
-                                    <ul style="margin-left: 20px;">
-                                        {% for category, message in messages %}
-                                            <li>{{ message }}</li>
-                                        {% endfor %}
+                                <br>
+                                <div class="tree">
+                                    <ul>
+                                        <li>Social Media
+                                            <ul>
+                                                <li><i class="fab fa-facebook"></i>&nbsp;&nbsp;Facebook</li>
+                                                <li><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</li>
+                                                <li><i class="fab fa-youtube"></i>&nbsp;&nbsp;YouTube</li>
+                                                <li><i class="fab fa-twitter"></i>&nbsp;&nbsp;X / Twitter</li>
+                                                <li><i class="fab fa-tiktok"></i>&nbsp;&nbsp;Tiktok</li>
+                                            </ul>
+                                        </li>
+                                        <li>QA Crowdsourcing
+                                            <ul>
+                                                <li><i class="fab fa-stack-overflow"></i>&nbsp;&nbsp;Stack Overflow</li>
+                                            </ul>
+                                        </li>
+                                        <li>Application Marketplace
+                                            <ul>
+                                                <li><i class="fab fa-google-play"></i>&nbsp;&nbsp;Play Store</li>
+                                                <li><i class="fab fa-apple"></i>&nbsp;&nbsp;App Store</li>
+                                            </ul>
+                                        </li>
+                                        <li>Academic Literature
+                                            <ul>
+                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;IEEE</li>
+                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;ACM</li>
+                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;Springer</li>
+                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;Google Scholar</li>
+                                            </ul>
+                                        </li>
+                                        <li>Indonesia Marketplace
+                                            <ul>
+                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Tokopedia</li>
+                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Shopee</li>
+                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Bukalapak</li>
+                                            </ul>
+                                        </li>
+                                        <li>Indonesia News
+                                            <ul>
+                                                <li><i class="fas fa-newspaper"></i>&nbsp;&nbsp;Detik.com</li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </form>
+                            <br>
+                            {% if show_kolom %}
+                            <form action="/selector" method="POST" enctype="multipart/form-data">
+                                <div class="row" style="margin: auto;">
+                                    <div class="col-9">
+                                        <label for="column_name">Nama kolom yang akan diproses</label><br>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-9">
+                                        <select id="column_name" name="column_name" style="width: 250px;">
+                                            {% for option in options %}
+                                            <option value="{{ options.index(option) }}">{{ option }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                    <div class="col-3">
+                                        <input class="btn btn-primary btn-sm text-center" type="Submit" name=""
+                                               value="Submit">
+                                    </div>
+                                </div>
+                            </form>
                             {% endif %}
-                        {% endwith %}
+                        </div>
                     </div>
                 </div>
+                <br>
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                <div class="border-0 shadow-sm mt-2">
+                    <div class="alert alert-warning">
+                        <ul style="margin-left: 20px;">
+                            {% for category, message in messages %}
+                            <li>{{ message }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+                {% endwith %}
             </div>
         </div>
-    </body>
+    </div>
+</div>
+<script type="text/javascript">
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggler = document.querySelectorAll('.tree li');
+        toggler.forEach(function (item) {
+            item.addEventListener('click', function (e) {
+                e.stopPropagation();
+
+                toggler.forEach(function (el) {
+                    el.classList.remove('open');
+                });
+
+                item.classList.toggle('open');
+            });
+        });
+    });
+</script>
+</body>
 </html>

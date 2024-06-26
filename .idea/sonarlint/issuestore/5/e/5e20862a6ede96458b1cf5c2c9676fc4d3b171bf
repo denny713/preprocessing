@@ -1,0 +1,12 @@
+
+‡python:S67119"DUse a "numpy.random.Generator" here instead of this legacy function.(³ÙÄ³ûÿÿÿÿJ$b67a7169-1f34-4a5c-a502-ef5e302d4dbf
+‡python:S6711M"DUse a "numpy.random.Generator" here instead of this legacy function.(³ÙÄ³ûÿÿÿÿJ$76d3f29c-7f87-4b8f-bc0f-bccc5c6b969e
+apython:S125r"Remove this commented out code.(›ıú·øÿÿÿÿJ$43c20d60-bdfa-4d78-9794-838e4ea0322c
+}python:S6725~"?Don't perform an equality/inequality check against "numpy.nan".(¶ÊÇ€J$43cf9e33-474b-4894-b2da-d2e3e32c0c5f
+~python:S6725"?Don't perform an equality/inequality check against "numpy.nan".(ô…¼J$04731e2c-e7c5-4f6e-927d-ac586d07086f
+}python:S6725ƒ"?Don't perform an equality/inequality check against "numpy.nan".(ª¸ÁwJ$b25d768a-2896-4f29-8405-860b4786d8c5
+bpython:S125¡"Remove this commented out code.(›ıú·øÿÿÿÿJ$09acec9e-ec2a-496f-8d61-a65968ae30c8
+~python:S6725®"?Don't perform an equality/inequality check against "numpy.nan".(¶ÊÇ€J$e6662c51-8ead-42a4-ab8b-9ee07f11bf23
+~python:S6725±"?Don't perform an equality/inequality check against "numpy.nan".(ô…¼J$29474ad2-d8ba-4fb7-b784-07037a48f93f
+}python:S6725³"?Don't perform an equality/inequality check against "numpy.nan".(ª¸ÁwJ$907b8580-85de-429c-8a1d-9e9c50b0cb05
+bpython:S125¶"Remove this commented out code.(Æ´åúÿÿÿÿJ$a85897a9-2ba9-4a92-8db6-e4d50ba9a731
