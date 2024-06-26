@@ -39,3 +39,5 @@ Q
 !scraper/youtube/youtube_data.json,5/2/522c3b3594a8a2c28373278b026fcbc2b55e564f
 A
 assets/styles.css,5/2/520a92b02b2c0756f8f4c4a10af8cdc451cf5683
+O
+scraper/playstore/scrapingPS.py,f/6/f63a3524eeae84006b3e7af60c5ab40c343645a7

@@ -35,7 +35,7 @@
                             <form action="/uploader" method="POST" enctype="multipart/form-data">
                                 <div class="row" style="margin: auto;">
                                     <div class="col-9">
-                                        <label for="file_csv">Upload File CSV</label><br>
+                                        <label for="file_csv" id="upl">Upload File CSV</label><br>
                                     </div>
                                     <div class="w-100"></div>
                                     <div class="col-9">
@@ -51,42 +51,43 @@
                                     <ul>
                                         <li>Social Media
                                             <ul>
-                                                <li><i class="fab fa-facebook"></i>&nbsp;&nbsp;Facebook</li>
-                                                <li><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</li>
-                                                <li><i class="fab fa-youtube"></i>&nbsp;&nbsp;YouTube</li>
-                                                <li><i class="fab fa-twitter"></i>&nbsp;&nbsp;X / Twitter</li>
-                                                <li><i class="fab fa-tiktok"></i>&nbsp;&nbsp;Tiktok</li>
+                                                <li onclick="clickHandling(this)"><i class="fab fa-facebook"></i>Facebook
+                                                </li>
+                                                <li><i class="fab fa-instagram"></i>Instagram</li>
+                                                <li><i class="fab fa-youtube"></i>YouTube</li>
+                                                <li><i class="fab fa-twitter"></i>X / Twitter</li>
+                                                <li><i class="fab fa-tiktok"></i>Tiktok</li>
                                             </ul>
                                         </li>
                                         <li>QA Crowdsourcing
                                             <ul>
-                                                <li><i class="fab fa-stack-overflow"></i>&nbsp;&nbsp;Stack Overflow</li>
+                                                <li><i class="fab fa-stack-overflow"></i>Stack Overflow</li>
                                             </ul>
                                         </li>
                                         <li>Application Marketplace
                                             <ul>
-                                                <li><i class="fab fa-google-play"></i>&nbsp;&nbsp;Play Store</li>
-                                                <li><i class="fab fa-apple"></i>&nbsp;&nbsp;App Store</li>
+                                                <li><i class="fab fa-google-play"></i>Play Store</li>
+                                                <li><i class="fab fa-apple"></i>App Store</li>
                                             </ul>
                                         </li>
                                         <li>Academic Literature
                                             <ul>
-                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;IEEE</li>
-                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;ACM</li>
-                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;Springer</li>
-                                                <li><i class="fas fa-book"></i>&nbsp;&nbsp;Google Scholar</li>
+                                                <li><i class="fas fa-book"></i>IEEE</li>
+                                                <li><i class="fas fa-book"></i>ACM</li>
+                                                <li><i class="fas fa-book"></i>Springer</li>
+                                                <li><i class="fas fa-book"></i>Google Scholar</li>
                                             </ul>
                                         </li>
                                         <li>Indonesia Marketplace
                                             <ul>
-                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Tokopedia</li>
-                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Shopee</li>
-                                                <li><i class="fas fa-store"></i>&nbsp;&nbsp;Bukalapak</li>
+                                                <li><i class="fas fa-store"></i>Tokopedia</li>
+                                                <li><i class="fas fa-store"></i>Shopee</li>
+                                                <li><i class="fas fa-store"></i>Bukalapak</li>
                                             </ul>
                                         </li>
                                         <li>Indonesia News
                                             <ul>
-                                                <li><i class="fas fa-newspaper"></i>&nbsp;&nbsp;Detik.com</li>
+                                                <li><i class="fas fa-newspaper"></i>Detik.com</li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -151,6 +152,12 @@
             });
         });
     });
+
+    function clickHandling(element) {
+        let title = element.parentElement.innerText.trim();
+        let label = document.getElementById("upl");
+        label.innerHTML = "Upload File CSV untuk " + title;
+    }
 </script>
 </body>
 </html>
