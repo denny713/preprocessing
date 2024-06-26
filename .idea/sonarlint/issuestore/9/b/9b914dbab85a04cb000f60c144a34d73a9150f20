@@ -1,11 +1,0 @@
-
-{python:S1192"^Define a constant instead of duplicating this literal 'Jelaskan kamu cari apa bro...' 6 times.(úòÐ²úÿÿÿÿ
-gpython:S1854,"JRemove this assignment to local variable 'hasil'; the value is never used.(úòÐ²úÿÿÿÿ
-[python:S14817">Replace the unused local variable "tp_total_halaman" with "_".(õ‰£çùÿÿÿÿ
-6python:S1256"Remove this commented out code.(¾ßô
-gpython:S1854c"JRemove this assignment to local variable 'hasil'; the value is never used.(úòÐ²úÿÿÿÿ
-[python:S1481n">Replace the unused local variable "tp_total_halaman" with "_".(õ‰£çùÿÿÿÿ
-6python:S125m"Remove this commented out code.(ˆíÅÐ
-hpython:S1854›"JRemove this assignment to local variable 'hasil'; the value is never used.(úòÐ²úÿÿÿÿ
-\python:S1481¦">Replace the unused local variable "tp_total_halaman" with "_".(õ‰£çùÿÿÿÿ
-7python:S125¥"Remove this commented out code.(ˆíÅÐ

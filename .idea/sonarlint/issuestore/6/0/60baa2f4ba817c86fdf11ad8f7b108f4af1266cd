@@ -1,82 +1,0 @@
-
-‰python:S1192["rDefine a constant instead of duplicating this literal "//button[@class='css-bugrro-unf-pagination-item']" 3 times.(éãÿ`
-opython:S1192œ"VDefine a constant instead of duplicating this literal '//a[@class="bl-link"]' 3 times.(¦÷‘İ
-ppython:S1192N"YDefine a constant instead of duplicating this literal "window.scrollBy(0, 800);" 8 times.(©¨¨
-hpython:S1192ñ"JDefine a constant instead of duplicating this literal ' ulasan: ' 3 times.(ŞíÂÊûÿÿÿÿ
-‡python:S1192Y"jDefine a constant instead of duplicating this literal "//*[@class='pcv3__container css-1izdl9e']" 3 times.(ôõêÅÿÿÿÿÿ
-gpython:S11921"JDefine a constant instead of duplicating this literal 'mencari: ' 3 times.(çòâÈøÿÿÿÿ
-hpython:S1192ñ"JDefine a constant instead of duplicating this literal 'bintang: ' 3 times.(ŞíÂÊûÿÿÿÿ
-fpython:S1192ñ"HDefine a constant instead of duplicating this literal ' nama: ' 3 times.(ŞíÂÊûÿÿÿÿ
-{python:S1192I"cDefine a constant instead of duplicating this literal "return document.body.scrollHeight" 16 times.(Ô§ÏŞ
-Hpython:S1066Õ"/Merge this if statement with the enclosing one.(Ë‰ÈŠ
-Hpython:S1066§"/Merge this if statement with the enclosing one.(Ë‰ÈŠ
-;python:S125"Remove this commented out code.(ÀíÏôøÿÿÿÿ
-;python:S125"Remove this commented out code.(«ÿ—Àùÿÿÿÿ
-Cpython:S14819"+Remove the unused local variable "content".(îÇ­§
-;python:S1258"Remove this commented out code.(ëºäùÿÿÿÿ
-;python:S125="Remove this commented out code.(ÇÂÔúÿÿÿÿ
-;python:S125b"Remove this commented out code.(¾Á¼Õøÿÿÿÿ
-Cpython:S1481p"+Remove the unused local variable "content".(îÇ­§
-;python:S125o"Remove this commented out code.(ëºäùÿÿÿÿ
-;python:S125s"Remove this commented out code.(Şñ³İøÿÿÿÿ
-7python:S125•"Remove this commented out code.(àã–½
-rpython:S3776º"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(¼éÓ©øÿÿÿÿ
-<python:S125Á"Remove this commented out code.(«Ÿ¯Çÿÿÿÿÿ
-7python:S125ø"Remove this commented out code.(ğÚõ“
-6python:S125ú"Remove this commented out code.(—ßêP
-7python:S125"Remove this commented out code.(¾õ‚
-<python:S125£"Remove this commented out code.(ò•ğ¬şÿÿÿÿ
-<python:S125°"Remove this commented out code.(äú”áûÿÿÿÿ
-7python:S125¼"Remove this commented out code.(§ì¡§
-Dpython:S1481Á"+Remove the unused local variable "content".(îÇ­§
-<python:S125Ã"Remove this commented out code.(ñÌ×Õıÿÿÿÿ
-6python:S125ß"Remove this commented out code.(ñ–ù/
-lpython:S3776‚"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(¶ÙòR
-<python:S125…"Remove this commented out code.(›îœœıÿÿÿÿ
-Upython:S5754¸"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
-<python:S125–"Remove this commented out code.(›Ğşüÿÿÿÿ
-<python:S125"Remove this commented out code.(Û…Àúıÿÿÿÿ
-<python:S125ª"Remove this commented out code.(›Ğşüÿÿÿÿ
-Upython:S1481¾"7Replace the unused local variable "pencarian" with "_".(¥äşşÿÿÿÿ
-Dpython:S1481Ó"+Remove the unused local variable "content".(îÇ­§
-<python:S125Ò"Remove this commented out code.(ëºäùÿÿÿÿ
-<python:S125×"Remove this commented out code.(ÇÂÔúÿÿÿÿ
-Kpython:S1481Ç"2Remove the unused local variable "item_store_url".(•À†Ï
-rpython:S3776ƒ"TRefactor this function to reduce its Cognitive Complexity from 35 to the 15 allowed.(¼éÓ©øÿÿÿÿ
-<python:S125ˆ"Remove this commented out code.(Ë”Ã¤şÿÿÿÿ
-<python:S125Š"Remove this commented out code.(«Ÿ¯Çÿÿÿÿÿ
-7python:S125›"Remove this commented out code.(ÊŞïİ
-7python:S125Ÿ"Remove this commented out code.(àö¢Î
-<python:S125°"Remove this commented out code.(ñşèïúÿÿÿÿ
-7python:S125İ"Remove this commented out code.(ğÚõ“
-6python:S125ß"Remove this commented out code.(—ßêP
-7python:S125ğ"Remove this commented out code.(•²»
-Dpython:S1481ˆ"+Remove the unused local variable "content".(îÇ­§
-6python:S125§"Remove this commented out code.(ñ–ù/
-lpython:S3776Ê"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(¶ÙòR
-6python:S125Ë"Remove this commented out code.(‰“Ü
-<python:S125ä"Remove this commented out code.(ƒ‡è÷şÿÿÿÿ
-7python:S125Š"Remove this commented out code.(î„“
-Upython:S1481—"7Replace the unused local variable "pencarian" with "_".(¥äşşÿÿÿÿ
-Dpython:S1481«"+Remove the unused local variable "content".(îÇ­§
-<python:S125ª"Remove this commented out code.(ëºäùÿÿÿÿ
-<python:S125¯"Remove this commented out code.(ÇÂÔúÿÿÿÿ
-rpython:S3776Ô"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼éÓ©øÿÿÿÿ
-<python:S125Ù"Remove this commented out code.(Ë”Ã¤şÿÿÿÿ
-<python:S125Û"Remove this commented out code.(«Ÿ¯Çÿÿÿÿÿ
-7python:S125ë"Remove this commented out code.(ÊŞïİ
-7python:S125ï"Remove this commented out code.(øéã‚
-<python:S125ş"Remove this commented out code.(ñşèïúÿÿÿÿ
-<python:S125Œ"Remove this commented out code.(™Ë¬¨úÿÿÿÿ
-7python:S125•"Remove this commented out code.(ğÚõ“
-6python:S125—"Remove this commented out code.(—ßêP
-7python:S125¨"Remove this commented out code.(•²»
-Dpython:S1481À"+Remove the unused local variable "content".(îÇ­§
-7python:S125×"Remove this commented out code.(³ôğ‚
-rpython:S3776Ü"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ş²áúşÿÿÿÿ
-6python:S125à"Remove this commented out code.(ñ–ù/
-lpython:S3776‹"TRefactor this function to reduce its Cognitive Complexity from 49 to the 15 allowed.(¶ÙòR
-6python:S125Œ"Remove this commented out code.(‰“Ü
-<python:S125­"Remove this commented out code.(‹†Ìóúÿÿÿÿ
-7python:S125Æ"Remove this commented out code.(î„“
-Upython:S1481Ó"7Replace the unused local variable "pencarian" with "_".(¥äşşÿÿÿÿ

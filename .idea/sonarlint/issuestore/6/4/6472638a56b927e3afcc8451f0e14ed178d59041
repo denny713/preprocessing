@@ -1,14 +1,14 @@
 
-Špython:S1192u"LDefine a constant instead of duplicating this literal 'prepro.html' 3 times.(Ê¾®íJ$aa88eddf-6e88-4675-9a62-4c4da247ebe8
-python:S11926"LDefine a constant instead of duplicating this literal 'Data kosong' 3 times.(’ÓÙóüÿÿÿÿJ$231d9f9d-80ed-41d4-ab54-21cfbdd9a5ad
-python:S1192#"JDefine a constant instead of duplicating this literal "/uploads/" 4 times.(ú™‚ªøÿÿÿÿJ$cb2f39ac-63af-495a-9c61-13c12d97bc29
-Špython:S1192o"LDefine a constant instead of duplicating this literal "prepro.html" 3 times.(àäÏ¡J$bdd790f7-ec94-4895-a0b5-bea8119bb0ae
-fpython:S6779"#Don't disclose "Flask" secret keys.(»äëöıÿÿÿÿJ$f4acdd50-e9dc-483a-b1f8-223e2818a530
-hpython:S14815"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿJ$b1654c96-e118-4fb5-88f2-30b2583b3dfc
-hpython:S1481I"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿJ$d599d22f-ec9a-45cb-936b-9d3e1b400f3c
-’python:S3776<"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ßé¾éJ$f05d2867-01b3-4250-bb49-ffb5c78f1bc8
-bpython:S125‡"Remove this commented out code.(ÇÂÔúÿÿÿÿJ$6bc548ca-c2f8-4aff-a38b-2190a95dbc48
-“python:S3776­"TRefactor this function to reduce its Cognitive Complexity from 65 to the 15 allowed.(×›ˆ”J$cfc37b04-ad9f-432d-9215-a5aee466df58
-dpython:S6660Ç"%Use the `isinstance()` function here.(ú“ÕJ$b51f3d3a-3221-4e0a-9f98-007478a8478f
-dpython:S6660İ"%Use the `isinstance()` function here.(ú“ÕJ$ef8a1293-b574-4ac6-9c91-92a48553c4eb
-python:S1542ç"NRename function "Tokenize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÔœÆãJ$1c758e17-01dd-4047-8d70-638559c9f7a3
+kpython:S1192w"LDefine a constant instead of duplicating this literal 'prepro.html' 3 times.(Ê¾®í8÷À¯›…2
+ppython:S11927"LDefine a constant instead of duplicating this literal 'Data kosong' 3 times.(’ÓÙóüÿÿÿÿ8øÀ¯›…2
+npython:S1192#"JDefine a constant instead of duplicating this literal "/uploads/" 4 times.(ú™‚ªøÿÿÿÿ8ùÀ¯›…2
+kpython:S1192q"LDefine a constant instead of duplicating this literal "prepro.html" 3 times.(àäÏ¡8ùÀ¯›…2
+mpython:S6779"#Don't disclose "Flask" secret keys.(»äëöıÿÿÿÿ8ÓÇ®›…2J$95fa319d-cd32-4ef5-9e9c-501365685df2
+Ipython:S14816"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2
+Ipython:S1481K"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2
+spython:S3776>"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ßé¾é8úÀ¯›…2
+Cpython:S125Š"Remove this commented out code.(ÇÂÔúÿÿÿÿ8úÀ¯›…2
+tpython:S3776±"TRefactor this function to reduce its Cognitive Complexity from 65 to the 15 allowed.(×›ˆ”8úÀ¯›…2
+Epython:S6660Ø"%Use the `isinstance()` function here.(ú“Õ8úÀ¯›…2
+Epython:S6660ğ"%Use the `isinstance()` function here.(ú“Õ8ûÀ¯›…2
+npython:S1542û"NRename function "Tokenize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÔœÆã8ûÀ¯›…2
