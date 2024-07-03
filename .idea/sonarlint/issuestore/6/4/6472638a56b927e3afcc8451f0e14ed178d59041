@@ -1,14 +1,14 @@
 
-kpython:S1192w"LDefine a constant instead of duplicating this literal 'prepro.html' 3 times.(Ê¾®í8÷À¯›…2
-ppython:S11927"LDefine a constant instead of duplicating this literal 'Data kosong' 3 times.(’ÓÙóüÿÿÿÿ8øÀ¯›…2
-npython:S1192#"JDefine a constant instead of duplicating this literal "/uploads/" 4 times.(ú™‚ªøÿÿÿÿ8ùÀ¯›…2
-kpython:S1192q"LDefine a constant instead of duplicating this literal "prepro.html" 3 times.(àäÏ¡8ùÀ¯›…2
-mpython:S6779"#Don't disclose "Flask" secret keys.(»äëöıÿÿÿÿ8ÓÇ®›…2J$95fa319d-cd32-4ef5-9e9c-501365685df2
-Ipython:S14816"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2
-Ipython:S1481K"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2
-spython:S3776>"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ßé¾é8úÀ¯›…2
-Cpython:S125Š"Remove this commented out code.(ÇÂÔúÿÿÿÿ8úÀ¯›…2
-tpython:S3776±"TRefactor this function to reduce its Cognitive Complexity from 65 to the 15 allowed.(×›ˆ”8úÀ¯›…2
-Epython:S6660Ø"%Use the `isinstance()` function here.(ú“Õ8úÀ¯›…2
-Epython:S6660ğ"%Use the `isinstance()` function here.(ú“Õ8ûÀ¯›…2
-npython:S1542û"NRename function "Tokenize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÔœÆã8ûÀ¯›…2
+‘python:S1192w"LDefine a constant instead of duplicating this literal 'prepro.html' 3 times.(Ê¾®í8÷À¯›…2J$f5effc83-37bc-4ae1-b39a-08725b22a4cb
+–python:S11927"LDefine a constant instead of duplicating this literal 'Data kosong' 3 times.(’ÓÙóüÿÿÿÿ8øÀ¯›…2J$feb27124-08a5-49bd-9464-bc15047a3b3d
+”python:S1192#"JDefine a constant instead of duplicating this literal "/uploads/" 4 times.(ú™‚ªøÿÿÿÿ8ùÀ¯›…2J$f4bb0122-3147-4512-9cba-1562f375cb17
+‘python:S1192q"LDefine a constant instead of duplicating this literal "prepro.html" 3 times.(àäÏ¡8ùÀ¯›…2J$03e3fd72-0f7f-43f3-830a-a728f9700aaa
+mpython:S6779"#Don't disclose "Flask" secret keys.(»äëöıÿÿÿÿ8ÓÇ®›…2J$13c36d74-b231-4491-91fa-bf65d30dbdfb
+opython:S14816"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2J$cb7b3042-4a9b-45e5-b22b-39480e2cda6e
+opython:S1481K"%Remove the unused local variable "e".(¥Ôç‚ûÿÿÿÿ8ùÀ¯›…2J$ec508502-b798-439e-ae05-90ef020bae3e
+™python:S3776>"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ßé¾é8úÀ¯›…2J$85ed25dc-710d-4691-b866-48b8621664a0
+ipython:S125Š"Remove this commented out code.(ÇÂÔúÿÿÿÿ8úÀ¯›…2J$a76a23e4-3ed7-42a3-921d-9759467cbad3
+špython:S3776±"TRefactor this function to reduce its Cognitive Complexity from 65 to the 15 allowed.(×›ˆ”8úÀ¯›…2J$c1c4c99c-91bb-4239-86f1-6b0567b9c0d5
+kpython:S6660Ø"%Use the `isinstance()` function here.(ú“Õ8úÀ¯›…2J$01292f33-50f8-4df6-886b-f40144e03880
+kpython:S6660ğ"%Use the `isinstance()` function here.(ú“Õ8ûÀ¯›…2J$31af699b-1135-446e-9c53-e5b0a5f08245
+”python:S1542û"NRename function "Tokenize" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÔœÆã8ûÀ¯›…2J$a03de726-f95c-4763-a1c6-db20c5f8c98f

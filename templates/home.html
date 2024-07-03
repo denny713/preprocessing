@@ -27,12 +27,81 @@
                     data yang siap diproses oleh komputer.
                 </p>
             </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-4">
+            <!--            <div class="col-lg-1"></div>-->
+            <div class="col-lg-6">
                 <div class="card border-0 shadow-sm mt-2">
                     <div class="card-body">
                         <div class="input">
                             <form action="/uploader" method="POST" enctype="multipart/form-data">
+                                <div class="row" style="margin: auto;">
+                                    <div class="col-9">
+                                        <label id="social">Dapatkan CSV File dari:</label>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="tree">
+                                        <ul>
+                                            <li>
+                                                <span>Social Media</span>
+                                                <ul>
+                                                    <li><i class="fab fa-facebook"></i>Facebook</li>
+                                                    <li><i class="fab fa-instagram"></i>Instagram</li>
+                                                    <li><i class="fab fa-youtube"></i>YouTube</li>
+                                                    <li><i class="fab fa-twitter"></i>X / Twitter</li>
+                                                    <li><i class="fab fa-tiktok"></i>Tiktok</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>QA Crowdsourcing</span>
+                                                <ul>
+                                                    <li><i class="fab fa-stack-overflow"></i>Stack Overflow</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>Application Marketplace</span>
+                                                <ul>
+                                                    <li><i class="fab fa-google-play"></i>Play Store</li>
+                                                    <li><i class="fab fa-apple"></i>App Store</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>Academic Literature</span>
+                                                <ul>
+                                                    <li><i class="fas fa-book"></i>IEEE</li>
+                                                    <li><i class="fas fa-book"></i>ACM</li>
+                                                    <li><i class="fas fa-book"></i>Springer</li>
+                                                    <li><i class="fas fa-book"></i>Google Scholar</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>Indonesia Marketplace</span>
+                                                <ul>
+                                                    <li><i class="fas fa-store"></i>Tokopedia</li>
+                                                    <li><i class="fas fa-store"></i>Shopee</li>
+                                                    <li><i class="fas fa-store"></i>Bukalapak</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>Indonesia News</span>
+                                                <ul>
+                                                    <li><i class="fas fa-newspaper"></i>Detik.com</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row" style="margin: auto;" id="keyword">
+                                    <div class="col-9">
+                                        <label for="key" id="judul"></label><br>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-9">
+                                        <input type="text" id="key" name="key" style="width: 350px">
+                                        <input type="button" class="btn btn-primary btn-sm text-center"
+                                               onclick="proses()" value="Proses">
+                                    </div>
+                                </div>
+                                <br>
                                 <div class="row" style="margin: auto;">
                                     <div class="col-9">
                                         <label for="file_csv" id="upl">Upload File CSV</label><br>
@@ -42,55 +111,9 @@
                                         <input type="file" id="file_csv" name="file_csv">
                                     </div>
                                     <div class="col-3">
-                                        <input class="btn btn-primary btn-sm text-center" type="Submit" name=""
+                                        <input class="btn btn-primary btn-sm text-center" type="Submit"
                                                value="Upload">
                                     </div>
-                                </div>
-                                <br>
-                                <div class="tree">
-                                    <ul>
-                                        <li>Social Media
-                                            <ul>
-                                                <li onclick="clickHandling(this)"><i class="fab fa-facebook"></i>Facebook
-                                                </li>
-                                                <li><i class="fab fa-instagram"></i>Instagram</li>
-                                                <li><i class="fab fa-youtube"></i>YouTube</li>
-                                                <li><i class="fab fa-twitter"></i>X / Twitter</li>
-                                                <li><i class="fab fa-tiktok"></i>Tiktok</li>
-                                            </ul>
-                                        </li>
-                                        <li>QA Crowdsourcing
-                                            <ul>
-                                                <li><i class="fab fa-stack-overflow"></i>Stack Overflow</li>
-                                            </ul>
-                                        </li>
-                                        <li>Application Marketplace
-                                            <ul>
-                                                <li><i class="fab fa-google-play"></i>Play Store</li>
-                                                <li><i class="fab fa-apple"></i>App Store</li>
-                                            </ul>
-                                        </li>
-                                        <li>Academic Literature
-                                            <ul>
-                                                <li><i class="fas fa-book"></i>IEEE</li>
-                                                <li><i class="fas fa-book"></i>ACM</li>
-                                                <li><i class="fas fa-book"></i>Springer</li>
-                                                <li><i class="fas fa-book"></i>Google Scholar</li>
-                                            </ul>
-                                        </li>
-                                        <li>Indonesia Marketplace
-                                            <ul>
-                                                <li><i class="fas fa-store"></i>Tokopedia</li>
-                                                <li><i class="fas fa-store"></i>Shopee</li>
-                                                <li><i class="fas fa-store"></i>Bukalapak</li>
-                                            </ul>
-                                        </li>
-                                        <li>Indonesia News
-                                            <ul>
-                                                <li><i class="fas fa-newspaper"></i>Detik.com</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
                                 </div>
                             </form>
                             <br>
@@ -139,6 +162,7 @@
 <script type="text/javascript">
 
     document.addEventListener('DOMContentLoaded', function () {
+        document.getElementById("keyword").style.display = "none";
         const toggler = document.querySelectorAll('.tree li');
         toggler.forEach(function (item) {
             item.addEventListener('click', function (e) {
@@ -148,15 +172,24 @@
                     el.classList.remove('open');
                 });
 
+                let value = item.textContent.trim();
                 item.classList.toggle('open');
+                if (value.indexOf("\n") === -1) {
+                    clickHandling(value);
+                }
             });
         });
     });
 
-    function clickHandling(element) {
-        let title = element.parentElement.innerText.trim();
-        let label = document.getElementById("upl");
-        label.innerHTML = "Upload File CSV untuk " + title;
+    function clickHandling(value) {
+        document.getElementById("keyword").style.display = "none";
+        let judul = "Masukkan URL atau Keyword dari";
+        document.getElementById("judul").innerHTML = judul + " " + value;
+        document.getElementById("keyword").style.display = "block";
+    }
+
+    function proses() {
+        alert("Process");
     }
 </script>
 </body>
