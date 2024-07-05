@@ -35,7 +35,7 @@
                             <form action="/uploader" method="POST" enctype="multipart/form-data">
                                 <div class="row" style="margin: auto;">
                                     <div class="col-9">
-                                        <label id="social">Dapatkan CSV File dari:</label>
+                                        <label id="social">Proses Pre-processing dari:</label>
                                     </div>
                                     <div class="w-100"></div>
                                     <div class="tree">
@@ -96,6 +96,12 @@
                                     </div>
                                     <div class="w-100"></div>
                                     <div class="col-9">
+                                        <div id="acmKey">
+                                            <input type="radio" id="title" name="field" value="title" checked>
+                                            <label for="title">Title</label><br>
+                                            <input type="radio" id="abstract" name="field" value="abstract">
+                                            <label for="abstract">Abstract</label><br>
+                                        </div>
                                         <input type="text" id="key" name="key" style="width: 350px">
                                         <input type="button" class="btn btn-primary btn-sm text-center"
                                                onclick="proses()" value="Proses">
@@ -174,7 +180,9 @@
 
                 let value = item.textContent.trim();
                 item.classList.toggle('open');
-                if (value.indexOf("\n") === -1) {
+                if (value.indexOf("\n") !== -1) {
+                    document.getElementById("keyword").style.display = "none";
+                } else {
                     clickHandling(value);
                 }
             });
@@ -186,6 +194,13 @@
         let judul = "Masukkan URL atau Keyword dari";
         document.getElementById("judul").innerHTML = judul + " " + value;
         document.getElementById("keyword").style.display = "block";
+
+        document.getElementById("acmKey").style.display = "none";
+
+        if (value === "ACM") {
+            document.getElementById("acmKey").style.display = "block";
+            document.getElementById("keyword").style.display = "block";
+        }
     }
 
     function proses() {
