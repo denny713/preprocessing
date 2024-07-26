@@ -7,7 +7,7 @@ def scrape_ieee(keyword):
     max_paper = 200
     url = 'http://ieeexploreapi.ieee.org/api/v1/search/articles?max_records=' + str(max_paper)
     api_key = '6hu2a2ms42qzx8thtvz52mzk'
-    print(result_process(query_run(url, api_key, keyword, max_paper), max_paper))
+    return result_process(query_run(url, api_key, keyword, max_paper), max_paper)
 
 
 def query_run(url, key, search, max_paper):
@@ -20,8 +20,6 @@ def query_run(url, key, search, max_paper):
     output = open(search + "_raw.txt", "w", encoding="utf-8")
     output.write(response.text)
     output.close()
-
-    input("Results Obtained. Press Any Key to Begin Processing")
 
     return result_process(response.text, max_paper)
 
@@ -69,4 +67,3 @@ def result_process(data, max_paper):
         print("WARNING:", jsn['total_records'], "records found. Modify your query to get a narrower search")
 
     return unique_terms
-

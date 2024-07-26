@@ -24,7 +24,6 @@ def scrape_acm_titles(url):
         results = []
         for title in titles:
             results.append(title.text.strip())
-            print(title.text.strip())
 
         return results
     else:
@@ -46,5 +45,3 @@ def scrape_acm_abstracts(url):
     else:
         print(f"Error: Unable to fetch the content. Status code: {response.status_code}")
         return []
-
-

@@ -13,9 +13,9 @@ E
 templates/prepro.html,2/0/204799a4f621a062d9ed775ffaa9ace5899b81f9
 A
 assets/styles.css,5/2/520a92b02b2c0756f8f4c4a10af8cdc451cf5683
-A
-scrap/facebook.py,4/5/45906c715fe71272ca27aef466c76d38343f2696
 <
 scrap/acm.py,5/0/5001d500678e074bb6b7d6912c3823f1f142d6f8
 =
 scrap/ieee.py,a/f/afa0422a24247aa377f954294495cd73448b2161
+A
+scrap/springer.py,1/e/1e200327caf017e16adc318e6b83c857ef071c64
