@@ -31,6 +31,9 @@ def scrape_springer(keyword):
         soup = BeautifulSoup(response.content, 'lxml')
         mini_soup = soup.find("ol", class_="content-item-list")
 
+        print(soup)
+        # print(mini_soup)
+
         for article in mini_soup.find_all("li"):
             counter += 1
 
