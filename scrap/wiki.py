@@ -18,7 +18,3 @@ def wiki_search(keyword, rs=20):
 
 def wiki_sum(keyword):
     return wikipedia.summary(keyword, auto_suggest=False)
-
-
-if __name__ == '__main__':
-    scrap_wiki("spring boot")
